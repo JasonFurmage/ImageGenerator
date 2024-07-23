@@ -2,9 +2,15 @@
 	"version": 3,
 	"file": "application.css",
 	"sources": [
-		"../scss/application.scss"
+		"../scss/application.scss",
+		"../scss/utilities/_index.scss",
+		"../scss/base/_index.scss",
+		"../scss/modules/_index.scss"
 	],
 	"sourcesContent": [
+		"// ==========================================================================\r\n// Application\r\n// ==========================================================================\r\n\r\n@import \"utilities/index\";\r\n@import \"base/index\";\r\n@import \"modules/index\";\r\n",
+		"",
+		"",
 		""
 	],
 	"names": [],
