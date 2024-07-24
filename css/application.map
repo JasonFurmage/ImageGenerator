@@ -18,9 +18,9 @@
 		"// ==========================================================================\n// Functions\n// ==========================================================================\n\n// Import if Google Fonts URL is defined\n\n@if variable-exists(font-url--google) {\n    @import url($font-url--google);\n}\n\n// Calculate em values\n\n@function em($target, $context: $base__font-size) {\n\t@return ($target / $context) * 1em;\n}",
 		"// ==========================================================================\n// Mixins\n// ==========================================================================\n\n// BEM selectors\n\n@mixin e($element) {\n\t&__#{$element} {\n    @content;\n  }\n}\n\n@mixin m($modifier) {\n  &--#{$modifier} {\n    @content;\n  }\n}\n\n// Generate modifier color classes\n\n@mixin bg-colors($map) {\n\t@each $theme, $color in $map {\n\t\t&--#{$theme} {\n\t\t\tbackground-color: $color;    \n\t\t}\n\t}\n}\n\n// Flexbox properties\n\n@mixin flexy($disp: flex, $dir: null, $wrap: null, $just: null, $algn: null) {\n\tdisplay: $disp;\n\tflex-direction: $dir;\n\tflex-wrap: $wrap;\n\tjustify-content: $just;\n\talign-items: $algn;\n}\n",
 		"// ==========================================================================\n// Index\n// ==========================================================================\n\n@import 'base';",
-		"// Include padding and border element's total width and height calculations\n\n*, *::before, *::after {\n  box-sizing: border-box;\n}\n\n\n",
+		"// Include padding and border element's total width and height calculations\n\n*, *::before, *::after {\n  box-sizing: border-box;\n}\n\nbody {\n    font-size: $base__font-size;\n    font-family: $font-family--primary;\n    line-height: ($base__line/$base__font-size);\n    background-color: $light-grey;\n    color: $black;\n}\n\n",
 		""
 	],
 	"names": [],
-	"mappings": "AGOI,OAAO,CAAC,qDAAI;;AGLhB,AAAA,CAAC,EAAE,CAAC,AAAA,QAAQ,EAAE,CAAC,AAAA,OAAO,CAAC;EACrB,UAAU,EAAE,UAAU;CACvB"
+	"mappings": "AGOI,OAAO,CAAC,qDAAI;;AGLhB,AAAA,CAAC,EAAE,CAAC,AAAA,QAAQ,EAAE,CAAC,AAAA,OAAO,CAAC;EACrB,UAAU,EAAE,UAAU;CACvB;;;AAED,AAAA,IAAI,CAAC;EACD,SAAS,EJIM,IAAI;EIHnB,WAAW,EJDY,SAAS,EAAE,gBAAgB,EAAE,SAAS,EAAE,KAAK,EAAE,UAAU;EIEhF,WAAW,EAAE,GAA8B;EAC3C,gBAAgB,EJUA,OAAO;EITvB,KAAK,EJMW,IAAI;CILvB"
 }

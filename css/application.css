@@ -4,4 +4,13 @@
   box-sizing: border-box;
 }
 
+/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_base.scss */
+body {
+  font-size: 15px;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #f1f1f1;
+  color: #000;
+}
+
 /*# sourceMappingURL=application.css.map */
