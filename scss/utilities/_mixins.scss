@@ -9,6 +9,7 @@
     @content;
   }
 }
+
 @mixin m($modifier) {
   &--#{$modifier} {
     @content;
@@ -23,4 +24,14 @@
 			background-color: $color;    
 		}
 	}
+}
+
+// Flexbox properties
+
+@mixin flexy($disp: flex, $dir: null, $wrap: null, $just: null, $algn: null) {
+	display: $disp;
+	flex-direction: $dir;
+	flex-wrap: $wrap;
+	justify-content: $just;
+	align-items: $algn;
 }
