@@ -394,4 +394,11 @@ template {
   height: 100vh;
 }
 
+/* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_content.scss */
+.content {
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 400px;
+}
+
 /*# sourceMappingURL=application.css.map */
