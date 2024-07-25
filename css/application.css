@@ -402,6 +402,8 @@ template {
 
 /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_content.scss */
 .content {
+  display: flex;
+  flex-direction: column;
   padding-left: 15px;
   padding-right: 15px;
   max-width: 400px;

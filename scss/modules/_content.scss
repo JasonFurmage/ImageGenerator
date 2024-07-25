@@ -3,6 +3,7 @@
 // ==========================================================================
 
 .content {
+    @include flexy($dir: column);
     padding-left: 15px;
     padding-right: 15px;
     max-width: 400px;
