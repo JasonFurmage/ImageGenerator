@@ -1,0 +1,6 @@
+// Center container horizontally and vertically
+
+.container {
+    @include flexy($just:center, $algn: center);
+    height: 100vh;
+}

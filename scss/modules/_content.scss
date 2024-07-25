@@ -1,6 +1,1 @@
-// Center content horizontally and vertically
 
-.content {
-    @include flexy($just:center, $algn: center);
-    height: 100vh;
-}
