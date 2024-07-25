@@ -386,4 +386,12 @@ template {
   display: none;
 }
 
+/* line 3, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_content.scss */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 /*# sourceMappingURL=application.css.map */
