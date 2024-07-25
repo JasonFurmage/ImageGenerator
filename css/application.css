@@ -1,10 +1,10 @@
 @import url("http://fonts.googleapis.com/css?family=Raleway");
-/* line 3, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_base.scss */
+/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_base.scss */
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
-/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_base.scss */
+/* line 11, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_base.scss */
 body {
   font-size: 15px;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
