@@ -388,6 +388,7 @@ template {
 
 /* line 8, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .accounts__select {
+  width: 100%;
   padding: 16px 8px;
   border: 1px solid #ccc;
 }
