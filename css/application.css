@@ -404,6 +404,7 @@ template {
 /* line 23, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .btn--black {
   background-color: #000;
+  color: #ffffff;
 }
 
 /* line 23, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */

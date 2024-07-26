@@ -22,6 +22,11 @@
 	@each $theme, $color in $map {
 		&--#{$theme} {
 			background-color: $color;
+			
+			// Set text color to white only if background color is dark
+			@if lightness($color) <= 50% {
+				color: $white;
+			}
 		}
 	}
 }
