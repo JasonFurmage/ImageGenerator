@@ -13,6 +13,13 @@ body {
   color: #000;
 }
 
+/* line 19, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_base.scss */
+select, input {
+  width: 100%;
+  padding: 16px 8px;
+  border: 1px solid #ccc;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -384,13 +391,6 @@ template {
 /* line 347, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 [hidden] {
   display: none;
-}
-
-/* line 8, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
-.accounts__select {
-  width: 100%;
-  padding: 16px 8px;
-  border: 1px solid #ccc;
 }
 
 /* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_container.scss */
