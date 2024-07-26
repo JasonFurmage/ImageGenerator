@@ -21,7 +21,7 @@
 @mixin bg-colors($map) {
 	@each $theme, $color in $map {
 		&--#{$theme} {
-			background-color: $color;    
+			background-color: $color;
 		}
 	}
 }

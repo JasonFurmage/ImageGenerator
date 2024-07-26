@@ -401,6 +401,16 @@ template {
   cursor: pointer;
 }
 
+/* line 23, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.btn--black {
+  background-color: #000;
+}
+
+/* line 23, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.btn--white {
+  background-color: #ffffff;
+}
+
 /* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_container.scss */
 .container {
   display: flex;

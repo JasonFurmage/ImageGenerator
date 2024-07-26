@@ -7,4 +7,6 @@
     border: none;
     padding: 12px 24px;
     cursor: pointer;
+
+    @include bg-colors($btn-colors);
 }
