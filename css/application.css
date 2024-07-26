@@ -393,6 +393,14 @@ template {
   display: none;
 }
 
+/* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_buttons.scss */
+.btn {
+  width: 100%;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
 /* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_container.scss */
 .container {
   display: flex;
