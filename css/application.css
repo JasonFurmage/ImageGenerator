@@ -429,4 +429,10 @@ template {
   max-width: 400px;
 }
 
+/* line 8, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.image__btns {
+  display: flex;
+  flex-direction: row;
+}
+
 /*# sourceMappingURL=application.css.map */
