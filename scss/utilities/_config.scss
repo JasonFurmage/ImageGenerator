@@ -2,18 +2,14 @@
 // Config
 // ==========================================================================
 
-// Font Stacks
-
 $font-url--google        : 'http://fonts.googleapis.com/css?family=Raleway';
 $font-family--primary    : 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
-// Font
 
 $base__font-size : 15px;
-$base__line      : 22.5px; // Consider changing this back to 24px.
+$base__line      : 22.5px;
 $letter-space    : 1px;
 
-// Colors
 
 $black          :   #000;
 $white          :   #ffffff;
@@ -21,11 +17,11 @@ $grey           :   #ccc;
 $light-grey     :   #f1f1f1;
 $dark-grey      :   #757575;
 
-// UI Colors
 
 $ui-colors: (
 
 );
+
 
 $btn-colors: (
     "black" : $black,

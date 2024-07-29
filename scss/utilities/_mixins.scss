@@ -2,8 +2,6 @@
 // Mixins
 // ==========================================================================
 
-// BEM selectors
-
 @mixin e($element) {
 	&__#{$element} {
     @content;
@@ -16,22 +14,17 @@
   }
 }
 
-// Generate modifier color classes
-
 @mixin bg-colors($map) {
 	@each $theme, $color in $map {
 		&--#{$theme} {
 			background-color: $color;
 			
-			// Set text color to white only if background color is dark
 			@if lightness($color) <= 50% {
 				color: $white;
 			}
 		}
 	}
 }
-
-// Flexbox properties
 
 @mixin flexy($disp: flex, $dir: null, $wrap: null, $just: null, $algn: null) {
 	display: $disp;

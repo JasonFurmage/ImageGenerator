@@ -372,12 +372,12 @@ template {
   display: none;
 }
 
-/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_base.scss */
+/* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_base.scss */
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
-/* line 11, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_base.scss */
+/* line 9, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_base.scss */
 body {
   font-size: 15px;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -386,7 +386,7 @@ body {
   color: #000;
 }
 
-/* line 19, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_base.scss */
+/* line 17, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_base.scss */
 select, input {
   width: 100%;
   padding: 16px 8px;
@@ -401,18 +401,18 @@ select, input {
   cursor: pointer;
 }
 
-/* line 23, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+/* line 19, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .btn--black {
   background-color: #000;
   color: #ffffff;
 }
 
-/* line 23, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+/* line 19, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .btn--white {
   background-color: #ffffff;
 }
 
-/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_container.scss */
+/* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_container.scss */
 .container {
   display: flex;
   justify-content: center;
@@ -429,7 +429,7 @@ select, input {
   max-width: 400px;
 }
 
-/* line 8, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+/* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .image__btns {
   display: flex;
   flex-direction: row;
