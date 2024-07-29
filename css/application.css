@@ -1,25 +1,4 @@
 @import url("http://fonts.googleapis.com/css?family=Raleway");
-/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_base.scss */
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-/* line 11, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_base.scss */
-body {
-  font-size: 15px;
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  background-color: #f1f1f1;
-  color: #000;
-}
-
-/* line 19, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_base.scss */
-select, input {
-  width: 100%;
-  padding: 16px 8px;
-  border: 1px solid #ccc;
-}
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -391,6 +370,27 @@ template {
 /* line 347, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 [hidden] {
   display: none;
+}
+
+/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_base.scss */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* line 11, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_base.scss */
+body {
+  font-size: 15px;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+/* line 19, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_base.scss */
+select, input {
+  width: 100%;
+  padding: 16px 8px;
+  border: 1px solid #ccc;
 }
 
 /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_buttons.scss */
