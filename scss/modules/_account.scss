@@ -8,6 +8,6 @@
     }
 
     @include e(textfield) {
-        @extend %input-styling;
+        @extend %textfield-styling;
     }
 }
