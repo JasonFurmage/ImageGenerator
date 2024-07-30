@@ -3,6 +3,6 @@
 // ==========================================================================
 
 .container {
-    @include flexy($just: center, $algn: center);
+    @include flex($just: center, $algn: center);
     height: 100vh;
 }

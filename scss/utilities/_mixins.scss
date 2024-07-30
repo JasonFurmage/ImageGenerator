@@ -26,7 +26,7 @@
 	}
 }
 
-@mixin flexy($disp: flex, $dir: null, $wrap: null, $just: null, $algn: null) {
+@mixin flex($disp: flex, $dir: null, $wrap: null, $just: null, $algn: null) {
 	display: $disp;
 	flex-direction: $dir;
 	flex-wrap: $wrap;
