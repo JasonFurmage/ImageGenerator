@@ -1,3 +1,11 @@
+@import url("http://fonts.googleapis.com/css?family=Raleway");
+/* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_placeholders.scss */
+.account__select {
+  width: 100%;
+  padding: 16px 8px;
+  border: 1px solid #ccc;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -5,7 +13,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("http://fonts.googleapis.com/css?family=Raleway");
 /* line 11, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 html {
   line-height: 1.15;
