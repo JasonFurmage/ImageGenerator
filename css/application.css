@@ -1,6 +1,6 @@
 @import url("http://fonts.googleapis.com/css?family=Raleway");
 /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_placeholders.scss */
-.account__select {
+.account__select, .account__field {
   width: 100%;
   padding: 16px 8px;
   border: 1px solid #ccc;
