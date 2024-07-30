@@ -3,10 +3,9 @@
 // ==========================================================================
 
 .btn {
-    width: 100%;
-    border: none;
-    padding: 12px 24px;
-    cursor: pointer;
-
     @include bg-colors($btn-colors);
+    width: 100%;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
 }
