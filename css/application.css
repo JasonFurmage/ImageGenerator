@@ -386,13 +386,6 @@ body {
   color: #000;
 }
 
-/* line 17, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_base.scss */
-select, input {
-  width: 100%;
-  padding: 16px 8px;
-  border: 1px solid #ccc;
-}
-
 /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_buttons.scss */
 .btn {
   width: 100%;
