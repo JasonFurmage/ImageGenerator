@@ -7,9 +7,9 @@
 }
 
 body {
-    font-size: $base__font-size;
-    font-family: $font-family--primary;
-    line-height: ($base__line/$base__font-size);
+    font-size: $font-size;
+    font-family: $font-family;
+    line-height: ($line/$font-size);
     background-color: $light-grey;
     color: $black;
 }
