@@ -7,7 +7,7 @@
         @extend %select-styling;
     }
 
-    @include e(field) {
+    @include e(textfield) {
         @extend %input-styling;
     }
 }
