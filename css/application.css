@@ -435,7 +435,7 @@ body {
 }
 
 /* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
-.image__btns {
+.generator__btns {
   display: flex;
   flex-direction: row;
 }
