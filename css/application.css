@@ -454,4 +454,14 @@ body {
   flex-direction: row;
 }
 
+/* line 12, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.icn--left {
+  margin-right: 5px;
+}
+
+/* line 12, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.icn--right {
+  margin-left: 5px;
+}
+
 /*# sourceMappingURL=application.css.map */
