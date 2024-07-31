@@ -7,6 +7,10 @@
         @extend %select-styling;
         @extend %bottom-spacing;
     }
+
+    @include e(new) {
+        display: none;
+    }
     
     @include e(textfield) {
         @extend %textfield-styling;

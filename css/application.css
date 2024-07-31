@@ -398,6 +398,11 @@ body {
   color: #000;
 }
 
+/* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.account__new {
+  display: none;
+}
+
 /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_buttons.scss */
 .btn {
   width: 100%;
