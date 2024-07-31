@@ -3,6 +3,10 @@
 // ==========================================================================
 
 .generator {
+    @include e(window) {
+        @extend %bottom-spacing;
+    }
+
     @include e(image) {
         display: block;
         width: 100%;
