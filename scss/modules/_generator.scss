@@ -3,6 +3,13 @@
 // ==========================================================================
 
 .generator {
+    @include e(image) {
+        display: block;
+        width: 100%;
+        border: 1px solid $black;
+        background-color: $white;
+    }
+
     @include e(btns) {
         @include flex($dir: row);
     }

@@ -435,6 +435,14 @@ body {
 }
 
 /* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.generator__image {
+  display: block;
+  width: 100%;
+  border: 1px solid #000;
+  background-color: #ffffff;
+}
+
+/* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .generator__btns {
   display: flex;
   flex-direction: row;
