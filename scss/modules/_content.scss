@@ -3,7 +3,7 @@
 // ==========================================================================
 
 .content {
-    @include flex($dir: column);
+    @include flex($wrap: wrap);
     @extend %bottom-spacing;
     text-align: center;
     padding-left: 15px;

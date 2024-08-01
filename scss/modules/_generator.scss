@@ -17,4 +17,8 @@
     @include e(btns) {
         @include flex($dir: row);
     }
+
+    @include mq(medium) {
+        flex-basis: 50%; 
+    }
 }

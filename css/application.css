@@ -398,6 +398,11 @@ body {
   color: #000;
 }
 
+/* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_account.scss */
+.account {
+  flex-basis: 100%;
+}
+
 /* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .account__new {
   display: none;
@@ -433,7 +438,7 @@ body {
 /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_content.scss */
 .content {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   text-align: center;
   padding-left: 15px;
   padding-right: 15px;
@@ -479,6 +484,18 @@ body {
 .generator__btns {
   display: flex;
   flex-direction: row;
+}
+
+@media (min-width: 768px) {
+  /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_generator.scss */
+  .generator {
+    flex-basis: 50%;
+  }
+}
+
+/* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_heading.scss */
+.heading {
+  flex-basis: 100%;
 }
 
 @media (max-width: 767px) {
