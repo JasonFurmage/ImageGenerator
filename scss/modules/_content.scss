@@ -4,7 +4,6 @@
 
 .content {
     @include flex($wrap: wrap);
-    @extend %bottom-spacing;
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
