@@ -7,5 +7,9 @@
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
-    max-width: 400px;
+
+    @include mq(small) {max-width: $content-width-sm; }
+    @include mq(medium) { max-width: $content-width-md; }
+    @include mq(large) { max-width: $content-width-lg; }
+    @include mq(x-large) { max-width: $content-width-xl; }
 }
