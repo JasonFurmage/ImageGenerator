@@ -4,6 +4,7 @@
 
 .content {
     @include flex($dir: column);
+    @extend %bottom-spacing;
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
