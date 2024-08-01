@@ -21,5 +21,9 @@
         @extend %bottom-spacing;
     }
 
+    @include mq(medium) {
+        margin-top: 15px;
+    }
+
     flex-basis: 100%;
 }
