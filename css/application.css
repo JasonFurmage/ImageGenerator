@@ -481,6 +481,13 @@ body {
   flex-direction: row;
 }
 
+@media (max-width: 767px) {
+  /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_helper.scss */
+  .hidden-sm {
+    display: none;
+  }
+}
+
 /* line 12, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .icn--left {
   margin-right: 5px;
