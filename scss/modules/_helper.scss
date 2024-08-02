@@ -7,3 +7,9 @@
         display: none;
     }
 }
+
+.hidden-md {
+    @include mq(medium) {
+        display: none;
+    }
+}

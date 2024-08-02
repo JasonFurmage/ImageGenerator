@@ -512,6 +512,13 @@ body {
   }
 }
 
+@media (min-width: 768px) {
+  /* line 11, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_helper.scss */
+  .hidden-md {
+    display: none;
+  }
+}
+
 /* line 12, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .icn--left {
   margin-right: 5px;
