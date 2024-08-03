@@ -529,4 +529,9 @@ body {
   margin-left: 5px;
 }
 
+/* line 5, ../../GitHub/Websites/ImageGenerator/scss/modules/_library.scss */
+.library {
+  display: none;
+}
+
 /*# sourceMappingURL=application.css.map */
