@@ -444,6 +444,7 @@ body {
 
 /* line 5, ../../GitHub/Websites/ImageGenerator/scss/modules/_content.scss */
 .content {
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
 }
