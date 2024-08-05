@@ -519,6 +519,11 @@ body {
   }
 }
 
+/* line 5, ../../GitHub/Websites/ImageGenerator/scss/modules/_home.scss */
+.home {
+  display: none;
+}
+
 /* line 12, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .icn--left {
   margin-right: 5px;
@@ -527,11 +532,6 @@ body {
 /* line 12, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .icn--right {
   margin-left: 5px;
-}
-
-/* line 5, ../../GitHub/Websites/ImageGenerator/scss/modules/_library.scss */
-.library {
-  display: none;
 }
 
 /*# sourceMappingURL=application.css.map */
