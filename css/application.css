@@ -535,4 +535,11 @@ body {
   margin-left: 5px;
 }
 
+/* line 5, ../../GitHub/Websites/ImageGenerator/scss/modules/_library.scss */
+.library {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /*# sourceMappingURL=application.css.map */

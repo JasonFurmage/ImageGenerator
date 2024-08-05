@@ -4,4 +4,5 @@
 
 .library {
     //display: none;
+    @include flex($dir: column, $algn: center);
 }
