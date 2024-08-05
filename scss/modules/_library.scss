@@ -5,4 +5,8 @@
 .library {
     //display: none;
     @include flex($dir: column, $algn: center);
+
+    @include e(btn) {
+        width: auto;
+    }
 }

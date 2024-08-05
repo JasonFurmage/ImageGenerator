@@ -542,4 +542,9 @@ body {
   align-items: center;
 }
 
+/* line 6, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.library__btn {
+  width: auto;
+}
+
 /*# sourceMappingURL=application.css.map */
