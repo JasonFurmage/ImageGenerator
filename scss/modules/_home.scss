@@ -3,5 +3,7 @@
 // ==========================================================================
 
 .home {
+    @include flex($wrap: wrap);
+    text-align: center;
     display: none;
 }

@@ -444,9 +444,6 @@ body {
 
 /* line 5, ../../GitHub/Websites/ImageGenerator/scss/modules/_content.scss */
 .content {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -521,6 +518,9 @@ body {
 
 /* line 5, ../../GitHub/Websites/ImageGenerator/scss/modules/_home.scss */
 .home {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
   display: none;
 }
 
