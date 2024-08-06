@@ -438,15 +438,16 @@ body {
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* line 5, ../../GitHub/Websites/ImageGenerator/scss/modules/_content.scss */
 .content {
+  display: flex;
+  align-items: center;
+  height: 100svh;
   width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 @media (max-width: 767px) {

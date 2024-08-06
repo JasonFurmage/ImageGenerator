@@ -3,9 +3,9 @@
 // ==========================================================================
 
 .content {
+    @include flex($algn: center);
+    height: 100svh;
     width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
 
     @include mq(small) {max-width: $content-width-sm; }
     @include mq(medium) { max-width: $content-width-md; }

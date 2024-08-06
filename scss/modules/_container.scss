@@ -3,6 +3,7 @@
 // ==========================================================================
 
 .container {
-    @include flex($just: center, $algn: center);
-    height: 100vh;
+    @include flex($just: center);
+    padding-left: 15px;
+    padding-right: 15px;
 }
