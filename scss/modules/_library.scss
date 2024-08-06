@@ -3,10 +3,13 @@
 // ==========================================================================
 
 .library {
-    //display: none;
     @include flex($dir: column, $algn: center);
+    height: 100%;
+    width: 100%;
 
     @include e(btn) {
         width: auto;
     }
+    
+    display: none;
 }

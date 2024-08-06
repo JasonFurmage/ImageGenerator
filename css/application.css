@@ -541,6 +541,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100%;
+  width: 100%;
+  display: none;
 }
 
 /* line 6, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
