@@ -431,12 +431,12 @@ body {
 /* line 19, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .btn--black {
   background-color: #000;
-  color: #ffffff;
+  color: #fff;
 }
 
 /* line 19, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .btn--white {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_container.scss */
@@ -488,7 +488,7 @@ body {
   display: block;
   width: 100%;
   border: 1px solid #000;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 /* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
@@ -549,6 +549,16 @@ body {
   height: 100%;
   width: 100%;
   display: none;
+}
+
+/* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.library__window {
+  flex: 1;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  overflow-y: auto;
 }
 
 /* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
