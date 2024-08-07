@@ -4,7 +4,7 @@
 
 .generator {
     @include e(window) {
-        @extend %bottom-spacing;
+        @extend %element-bottom-spacing;
     }
 
     @include e(image) {

@@ -5,7 +5,7 @@
 .account {
     @include e(select) {
         @extend %select-styling;
-        @extend %bottom-spacing;
+        @extend %element-bottom-spacing;
     }
 
     @include e(new) {
@@ -14,11 +14,11 @@
     
     @include e(textfield) {
         @extend %textfield-styling;
-        @extend %bottom-spacing;
+        @extend %element-bottom-spacing;
     }
 
     @include e(btn) {
-        @extend %bottom-spacing;
+        @extend %element-bottom-spacing;
     }
 
     @include mq(medium) {
