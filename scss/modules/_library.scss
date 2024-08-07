@@ -17,6 +17,10 @@
         overflow-y: auto;
     }
 
+    @include e(placeholder) {
+        color: $dark-grey;
+    }
+
     @include e(btn) {
         @extend %btn-top-spacing;
         width: auto;

@@ -565,6 +565,11 @@ body {
 }
 
 /* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.library__placeholder {
+  color: #757575;
+}
+
+/* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .library__btn {
   width: auto;
 }
