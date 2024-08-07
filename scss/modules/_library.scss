@@ -23,6 +23,7 @@
 
     @include e(btn) {
         @extend %btn-top-spacing;
+        margin-bottom: 30px;
         width: auto;
     }
     

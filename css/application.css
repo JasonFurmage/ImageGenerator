@@ -571,6 +571,7 @@ body {
 
 /* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .library__btn {
+  margin-bottom: 30px;
   width: auto;
 }
 
