@@ -504,6 +504,20 @@ body {
   }
 }
 
+/* line 5, ../../GitHub/Websites/ImageGenerator/scss/modules/_grid.scss */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+/* line 6, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.grid__item {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
 /* line 5, ../../GitHub/Websites/ImageGenerator/scss/modules/_heading.scss */
 .heading {
   flex-basis: 100%;
