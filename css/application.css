@@ -567,11 +567,8 @@ body {
 
 /* line 6, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .library__window {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
   flex: 1;
-  width: 100%;
   background-color: #fff;
   border: 1px solid #ccc;
   padding: 20px;
@@ -580,6 +577,10 @@ body {
 
 /* line 6, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .library__placeholder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: #757575;
 }
 
