@@ -501,6 +501,7 @@ body {
   /* line 5, ../../GitHub/Websites/ImageGenerator/scss/modules/_generator.scss */
   .generator {
     flex-basis: 50%;
+    margin-left: 15px;
   }
 }
 
