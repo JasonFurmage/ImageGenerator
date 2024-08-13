@@ -6,6 +6,7 @@
     @include flex($dir: column, $algn: center);
     height: 100%;
     width: 100%;
+    display: none;
 
     @include e(window) {
         position: relative;
@@ -41,6 +42,4 @@
         margin-bottom: 30px;
         width: auto;
     }
-    
-    display: none;
 }

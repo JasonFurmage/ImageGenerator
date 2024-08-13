@@ -3,6 +3,8 @@
 // ==========================================================================
 
 .account {
+    flex-basis: 100%;
+
     @include e(select) {
         @extend %select-styling;
         @extend %element-bottom-spacing;
@@ -24,6 +26,4 @@
     @include mq(medium) {
         margin-top: 15px;
     }
-
-    flex-basis: 100%;
 }

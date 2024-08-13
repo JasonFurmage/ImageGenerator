@@ -487,8 +487,8 @@ body {
 .generator__image {
   display: block;
   width: 100%;
-  border: 1px solid #000;
   background-color: #fff;
+  border: 1px solid #000;
 }
 
 /* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
