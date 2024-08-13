@@ -16,7 +16,7 @@
         overflow-y: auto;
     }
 
-    @include e(placeholder) {
+    @include e(text) {
         position: absolute;
         top: 50%;
         left: 50%;
