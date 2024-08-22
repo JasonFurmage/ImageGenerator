@@ -2,8 +2,10 @@
 // Fetch
 // ==========================================================================
 
-export function fetchImage(url) {
-    return fetch(url)
+const picsumURL = 'https://picsum.photos/400/300';
+
+export function fetchImage() {
+    return fetch(picsumURL)
              .then(checkStatus)  
              .then(response => response.url)
              .catch(error => {

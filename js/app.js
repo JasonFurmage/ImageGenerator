@@ -4,5 +4,5 @@
 
 import { fetchImage } from './modules/fetch.js';
 
-fetchImage('https://picsum.photos/400/300')
+fetchImage()
     .then(imgURL => console.log(imgURL))
