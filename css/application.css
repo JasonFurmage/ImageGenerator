@@ -524,7 +524,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  display: none;
 }
 
 /* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */

@@ -5,7 +5,6 @@
 .home {
     @include flex($wrap: wrap);
     text-align: center;
-    display: none;
 
     @include e(heading) {
         flex-basis: 100%;
