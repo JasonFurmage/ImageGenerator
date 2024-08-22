@@ -3,6 +3,8 @@
 // ==========================================================================
 
 import { fetchImage } from './modules/fetch.js';
+import { generateImage } from './modules/helper.js';
 
 fetchImage()
-    .then(imgURL => console.log(imgURL))
+    .then(imgURL => generateImage(imgURL))
+    
