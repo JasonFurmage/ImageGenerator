@@ -541,14 +541,21 @@ body {
   margin-left: 5px;
 }
 
-/* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_library.scss */
-.library {
+/* line 12, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.library--full {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100%;
   width: 100%;
   display: none;
+}
+
+@media (min-width: 768px) {
+  /* line 12, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+  .library--full {
+    display: none !important;
+  }
 }
 
 /* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
