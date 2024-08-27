@@ -21,3 +21,9 @@ export function checkStatus(response) {
         return Promise.reject(new Error(response.statusText));
     }
 }
+
+export function generateImage(imgURL) {
+    const generatorImage = document.querySelector('.generator__image');
+    generatorImage.src = imgURL;
+}
+
