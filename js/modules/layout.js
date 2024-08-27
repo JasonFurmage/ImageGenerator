@@ -15,7 +15,9 @@ const $libraryFull = document.querySelector('.library--full');
 const $libraryMini = document.querySelector('.library--mini');
 const $libraryWindow = document.querySelector('.library__window');
 
-export function adjustLibraryWindow(width) {
+export function adjustLibraryWindow() {
+    const width = window.innerWidth;
+
     if (width < breakpoints.medium) {
         if (!$libraryFull.contains($libraryWindow)) {
             insertElementAtIndex($libraryFull, $libraryWindow, 1);
