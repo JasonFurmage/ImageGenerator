@@ -450,6 +450,7 @@ body {
 /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_content.scss */
 .content {
   display: flex;
+  justify-content: center;
   align-items: center;
   height: 100svh;
   width: 100%;
