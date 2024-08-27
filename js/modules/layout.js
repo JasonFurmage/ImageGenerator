@@ -20,7 +20,7 @@ export function adjustLibraryWindow() {
 
     if (width < breakpoints.medium) {
         if (!$libraryFull.contains($libraryWindow)) {
-            insertElementAtIndex($libraryFull, $libraryWindow, 1);
+            insertElementAtIndex($libraryFull, $libraryWindow, 2);
         }
     } else {
         if (!$libraryMini.contains($libraryWindow)) {
