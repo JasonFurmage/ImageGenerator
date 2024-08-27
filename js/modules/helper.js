@@ -7,8 +7,8 @@ export function insertElementAtIndex(parent, child, index) {
     const children = Array.from(parent.childNodes);
 
     if (index === children.length) {
-        parent.appendChild(newElement);
+        parent.appendChild(child);
     } else {
-        parent.insertBefore(newElement, children[index]);
+        parent.insertBefore(child, children[index]);
     }
 }
