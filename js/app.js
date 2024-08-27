@@ -2,7 +2,7 @@
 // App
 // ==========================================================================
 
-import { fetchImage } from './modules/fetch.js';
+import { fetchImage } from './modules/generator.js';
 import { generateImage } from './modules/helper.js';
 
 fetchImage()
