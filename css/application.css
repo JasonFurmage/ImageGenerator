@@ -582,6 +582,7 @@ body {
   /* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
   .library__window {
     flex: 1;
+    width: 100%;
   }
 }
 
