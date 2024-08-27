@@ -2,7 +2,7 @@
 // Layout
 // ==========================================================================
 
-import { insertElementAtIndex } from './modules/helper.js';
+import { insertElementAtIndex } from './helper.js';
 
 const breakpoints = {
     small: 1,
