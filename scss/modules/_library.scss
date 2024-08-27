@@ -3,6 +3,10 @@
 // ==========================================================================
 
 .library {
+    @include m(mini) {
+        flex-basis: 50%;
+    }
+
     @include m(full) {
         @include flex($dir: column, $algn: center);
         height: 100%;
@@ -21,6 +25,11 @@
         border: 1px solid $grey;
         padding: 20px;
         overflow-y: auto;
+
+        @include mq(medium) {
+            height: 100%;
+            margin-right: 15px;
+        }
     }
 
     @include e(text) {

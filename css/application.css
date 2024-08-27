@@ -501,7 +501,6 @@ body {
   /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_generator.scss */
   .generator {
     flex-basis: 50%;
-    margin-left: 15px;
   }
 }
 
@@ -549,6 +548,11 @@ body {
 }
 
 /* line 12, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.library--mini {
+  flex-basis: 50%;
+}
+
+/* line 12, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .library--full {
   display: flex;
   flex-direction: column;
@@ -573,6 +577,14 @@ body {
   border: 1px solid #ccc;
   padding: 20px;
   overflow-y: auto;
+}
+
+@media (min-width: 768px) {
+  /* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+  .library__window {
+    height: 100%;
+    margin-right: 15px;
+  }
 }
 
 /* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
