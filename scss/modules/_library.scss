@@ -20,11 +20,14 @@
 
     @include e(window) {
         position: relative;
-        flex: 1;
         background-color: $white;
         border: 1px solid $grey;
         padding: 20px;
         overflow-y: auto;
+
+        @include mq(small) {
+            flex: 1;
+        }
 
         @include mq(medium) {
             height: 100%;
