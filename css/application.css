@@ -538,6 +538,18 @@ body {
   }
 }
 
+/* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.home__btn {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  /* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+  .home__btn {
+    display: none;
+  }
+}
+
 /* line 12, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .icn--left {
   margin-right: 5px;

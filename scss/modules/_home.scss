@@ -18,5 +18,10 @@
 
     @include e(btn) {
         @extend %btn-top-spacing;
+        display: none;
+
+        @include mq(medium) {
+            display: none;
+        }
     }
 }
