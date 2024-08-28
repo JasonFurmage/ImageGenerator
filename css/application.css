@@ -531,6 +531,11 @@ body {
   flex-basis: 100%;
 }
 
+/* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.home__title {
+  margin-top: 0;
+}
+
 @media (max-width: 767px) {
   /* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
   .home__subtitle {
