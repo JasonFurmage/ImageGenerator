@@ -2,8 +2,8 @@
 // Account
 // ==========================================================================
 
-export const $accountSelect = document.querySelector('#accountSelect');
-export const $accountNew = document.querySelector('#accountNew');
+export const $accountSelect = document.getElementById('accountSelect');
+export const $accountNew = document.getElementById('accountNew');
 
 export function handleSelectChange() {
     const selectedValue = $accountSelect.value;
