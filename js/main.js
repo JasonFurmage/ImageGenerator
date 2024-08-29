@@ -8,8 +8,6 @@ import { $nextButton } from './modules/generator.js';
 import { $accountSelect } from './modules/account.js';
 import { handleSelectChange } from './modules/account.js';
 
-console.log($accountSelect);
-
 adjustLibraryWindow();
 fetchImage()
 
