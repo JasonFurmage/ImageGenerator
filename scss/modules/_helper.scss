@@ -2,14 +2,18 @@
 // Helper
 // ==========================================================================
 
-.hidden-sm {
+.hidden {
+    display: none!important;
+}
+
+.hidden-sm-down {
     @include mq(small) {
-        display: none;
+        display: none!important;
     }
 }
 
-.hidden-md {
+.hidden-md-up {
     @include mq(medium) {
-        display: none;
+        display: none!important;
     }
 }

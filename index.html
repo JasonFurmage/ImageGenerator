@@ -14,20 +14,20 @@
             <div class="home">
                 <div class="home__heading">
                     <h1 class="home__title">Image Generator</h1>
-                    <p class="home__subtitle">Simply create an account and save your images.</p>
+                    <p class="home__subtitle hidden-sm-down">Simply create an account and save your images.</p>
                 </div>
                 <div class="account">
                     <select class="account__select" id="accountSelect">
                         <option>Choose account</option>
                         <option value="new">Add new account...</option>
                     </select>
-                    <div class="account__new" id="accountNew">
+                    <div class="account__new hidden" id="accountNew">
                         <input class="account__textfield" type="email" maxlength="50" placeholder="Enter your email address">
                         <button class="account__btn btn btn--black">Add</button>
                         <button class="account__btn btn btn--white" id="cancelButton">Cancel</button>
                     </div>
                 </div>
-                <div class="library library--mini">
+                <div class="library library--mini hidden-sm-down">
                 </div>
                 <div class="generator">
                     <div class="generator__window">
@@ -38,9 +38,9 @@
                         <button class="generator__btn btn btn--black">Save <i class="fa-solid fa-floppy-disk icn--right"></i></button>
                     </div>
                 </div>
-                <button class="home__btn btn btn--black">View Saved Images</button>
+                <button class="home__btn btn btn--black hidden hidden-sm-down">View Saved Images</button>
             </div>
-            <div class="library library--full">
+            <div class="library library--full hidden hidden-md-up">
                 <div class="library__heading">
                     <h2 class="library__title">Library</h2>
                 </div>

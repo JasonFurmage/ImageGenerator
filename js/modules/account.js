@@ -10,13 +10,13 @@ export function handleSelectChange() {
     const selectedValue = $accountSelect.value;
 
     if (selectedValue === 'new') {
-        $accountNew.style.display = "block";
+        $accountNew.classList.remove('hidden');
     } else {
-        $accountNew.style.display = "none";
+        $accountNew.classList.add('hidden');
     }
 }
 
 export function hideAccountNew() {
-    $accountNew.style.display = "none";
+    $accountNew.classList.add('hidden');
     $accountSelect.options[0].selected = true;
 }

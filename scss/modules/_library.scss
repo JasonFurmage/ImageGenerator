@@ -11,11 +11,6 @@
         @include flex($dir: column, $algn: center);
         height: 100%;
         width: 100%;
-        display: none;
-
-        @include mq(medium) {
-            display: none!important;
-        }
     }
 
     @include e(window) {

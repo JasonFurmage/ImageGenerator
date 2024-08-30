@@ -9,10 +9,6 @@
         @extend %select-styling;
         @extend %element-bottom-spacing;
     }
-
-    @include e(new) {
-        display: none;
-    }
     
     @include e(textfield) {
         @extend %textfield-styling;

@@ -408,11 +408,6 @@ body {
   flex-basis: 100%;
 }
 
-/* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
-.account__new {
-  display: none;
-}
-
 @media (min-width: 768px) {
   /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_account.scss */
   .account {
@@ -505,17 +500,22 @@ body {
   }
 }
 
+/* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_helper.scss */
+.hidden {
+  display: none !important;
+}
+
 @media (max-width: 767px) {
-  /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_helper.scss */
-  .hidden-sm {
-    display: none;
+  /* line 9, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_helper.scss */
+  .hidden-sm-down {
+    display: none !important;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 11, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_helper.scss */
-  .hidden-md {
-    display: none;
+  /* line 15, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_helper.scss */
+  .hidden-md-up {
+    display: none !important;
   }
 }
 
@@ -534,25 +534,6 @@ body {
 /* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .home__title {
   margin-top: 0;
-}
-
-@media (max-width: 767px) {
-  /* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
-  .home__subtitle {
-    display: none;
-  }
-}
-
-/* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
-.home__btn {
-  display: none;
-}
-
-@media (min-width: 768px) {
-  /* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
-  .home__btn {
-    display: none;
-  }
 }
 
 /* line 12, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
@@ -577,14 +558,6 @@ body {
   align-items: center;
   height: 100%;
   width: 100%;
-  display: none;
-}
-
-@media (min-width: 768px) {
-  /* line 12, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
-  .library--full {
-    display: none !important;
-  }
 }
 
 /* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
