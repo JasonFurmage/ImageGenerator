@@ -18,5 +18,5 @@ export function handleSelectChange() {
 
 export function hideAccountNew() {
     $accountNew.classList.add('hidden');
-    $accountSelect.options[0].selected = true;
+    $accountSelect.selectedIndex = 0;
 }
