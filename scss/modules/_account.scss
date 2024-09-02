@@ -7,16 +7,16 @@
 
     @include e(select) {
         @extend %select-styling;
-        @extend %element-bottom-spacing;
+        margin-bottom: 15px;
     }
     
     @include e(textfield) {
         @extend %textfield-styling;
-        @extend %element-bottom-spacing;
+        margin-bottom: 15px;
     }
 
     @include e(btn) {
-        @extend %element-bottom-spacing;
+        margin-bottom: 15px;
     }
 
     @include mq(medium) {

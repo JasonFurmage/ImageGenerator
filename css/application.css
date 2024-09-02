@@ -6,16 +6,6 @@
   border: 1px solid #ccc;
 }
 
-/* line 11, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_placeholders.scss */
-.account__select, .account__textfield, .account__btn, .generator__window {
-  margin-bottom: 15px;
-}
-
-/* line 15, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_placeholders.scss */
-.home__btn, .library__btn {
-  margin-top: 30px;
-}
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -408,6 +398,21 @@ body {
   flex-basis: 100%;
 }
 
+/* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.account__select {
+  margin-bottom: 15px;
+}
+
+/* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.account__textfield {
+  margin-bottom: 15px;
+}
+
+/* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.account__btn {
+  margin-bottom: 15px;
+}
+
 @media (min-width: 768px) {
   /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_account.scss */
   .account {
@@ -480,6 +485,11 @@ body {
 }
 
 /* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.generator__window {
+  margin-bottom: 15px;
+}
+
+/* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .generator__image {
   display: block;
   width: 100%;
@@ -534,6 +544,11 @@ body {
 /* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .home__title {
   margin-top: 0;
+}
+
+/* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.home__btn {
+  margin-top: 30px;
 }
 
 /* line 12, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
@@ -610,6 +625,7 @@ body {
 
 /* line 6, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .library__btn {
+  margin-top: 30px;
   margin-bottom: 30px;
   width: auto;
 }
