@@ -11,9 +11,9 @@ const breakpoints = {
     xLarge: 1200
 };
 
-const $libraryFull = document.querySelector('.library--full');
-const $libraryMini = document.querySelector('.library--mini');
-const $libraryWindow = document.querySelector('.library__window');
+const $libraryFull = document.getElementById('libraryFull');
+const $libraryMini = document.getElementById('libraryMini');
+const $libraryWindow = document.getElementById('libraryWindow');
 
 export function adjustLibraryWindow() {
     const width = window.innerWidth;
