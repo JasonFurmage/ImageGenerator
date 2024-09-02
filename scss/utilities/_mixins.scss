@@ -2,15 +2,19 @@
 // Mixins
 // ==========================================================================
 
-@mixin e($element) {
-	&__#{$element} {
-    @content;
+@mixin e($elements...) {
+  @each $element in $elements {
+    &__#{$element} {
+      @content;
+    }
   }
 }
 
-@mixin m($modifier) {
-  &--#{$modifier} {
-    @content;
+@mixin m($modifiers...) {
+  @each $modifier in $modifiers {
+    &--#{$modifier} {
+      @content;
+    }
   }
 }
 
