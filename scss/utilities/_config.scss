@@ -20,8 +20,8 @@ $ui-colors: (
 );
 
 $btn-colors: (
-    "black" : $black,
-	"white"	: $white
+    "black" : ($black, $grey),
+    "white" : ($white, $grey)
 );
 
 $brkpoint-sm  : 1px;

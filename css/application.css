@@ -434,9 +434,19 @@ body {
   color: #fff;
 }
 
+/* line 29, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.btn--black:hover {
+  background-color: #ccc;
+}
+
 /* line 23, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .btn--white {
   background-color: #fff;
+}
+
+/* line 29, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.btn--white:hover {
+  background-color: #ccc;
 }
 
 /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_container.scss */
