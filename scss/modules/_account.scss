@@ -7,15 +7,13 @@
 
     @include e(select) {
         @extend %select-styling;
-        margin-bottom: 15px;
     }
     
     @include e(textfield) {
         @extend %textfield-styling;
-        margin-bottom: 15px;
     }
 
-    @include e(btn) {
+    @include e(select, textfield, btn) {
         margin-bottom: 15px;
     }
 

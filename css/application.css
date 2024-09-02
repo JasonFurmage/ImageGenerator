@@ -625,9 +625,9 @@ body {
 
 /* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .library__btn {
+  width: auto;
   margin-top: 30px;
   margin-bottom: 30px;
-  width: auto;
 }
 
 /*# sourceMappingURL=application.css.map */
