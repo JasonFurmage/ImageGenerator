@@ -27,5 +27,5 @@ $addButton.addEventListener('click', addAccount);
 $cancelButton.addEventListener('click', hideAccountNew);
 
 $saveButton.addEventListener('click', function(){
-    selectedAccount.library.push(currentImgURL);
+    selectedAccount.library.unshift(currentImgURL);
 });
