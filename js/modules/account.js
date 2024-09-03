@@ -35,3 +35,7 @@ export function hideAccountNew() {
 export function addAccount() {
     console.log('halt i am reptar');
 }
+
+function accountExists(email) {
+    return accounts.some(account => account.email === email);
+}
