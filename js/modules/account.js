@@ -11,6 +11,7 @@ export const $addButton = document.getElementById('addButton');
 export const $cancelButton = document.getElementById('cancelButton');
 
 const accounts = [];
+let selectedAccount;
 
 class Account {
     constructor(email, library) {
@@ -24,8 +25,17 @@ export function handleSelectChange() {
 
     if (selectedValue === 'new') {
         $accountNew.classList.remove('hidden');
+
     } else {
         $accountNew.classList.add('hidden');
+
+        if (selectedValue !== 'default') {
+            selectedAccount = getAccount(selectedValue);
+
+            if (!selectedAccount) {
+                console.log('account not found');
+            }
+        }
     }
 }
 
@@ -48,6 +58,7 @@ export function addAccount() {
     else {
         const newAccount = new Account(email, []);
         accounts.push(newAccount);
+        
         addSelectOption(newAccount.email)
         $accountTextField.value = '';
     }
@@ -61,7 +72,7 @@ function addSelectOption(email) {
     $accountSelect.appendChild(newOption);
     $accountSelect.value = email;
 
-    handleSelectChange();   
+    handleSelectChange();
 }
 
 function getAccount(email) {
