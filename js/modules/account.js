@@ -41,7 +41,7 @@ export function addAccount() {
         console.log('invalid email');
     } 
     
-    else if (accountExists(email)) {
+    else if (getAccount(email)) {
         console.log('account already exists');
     }
 
@@ -64,6 +64,6 @@ function addSelectOption(email) {
     handleSelectChange();   
 }
 
-function accountExists(email) {
-    return accounts.some(account => account.email === email);
+function getAccount(email) {
+    return accounts.find(account => account.email === email);
 }
