@@ -4,6 +4,7 @@
 
 const picsumURL = 'https://picsum.photos/400/300';
 export const $nextButton = document.getElementById('nextButton');
+export const $saveButton = document.getElementById('saveButton');
 
 export function fetchImage() {
     fetch(picsumURL)
