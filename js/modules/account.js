@@ -36,6 +36,17 @@ export function addAccount() {
     console.log('halt i am reptar');
 }
 
+function addSelectOption(email) {
+    const newOption = document.createElement('option');
+    newOption.value = email;
+    newOption.textContent = email;
+
+    $accountSelect.appendChild(newOption);
+    $accountSelect.value = email;
+
+    handleSelectChange();   
+}
+
 function accountExists(email) {
     return accounts.some(account => account.email === email);
 }
