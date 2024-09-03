@@ -4,6 +4,7 @@
 
 export const $accountSelect = document.getElementById('accountSelect');
 export const $accountNew = document.getElementById('accountNew');
+export const $accountTextField = document.getElementById('accountTextField');
 export const $addButton = document.getElementById('addButton');
 export const $cancelButton = document.getElementById('cancelButton');
 
