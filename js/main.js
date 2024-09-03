@@ -2,15 +2,16 @@
 // Main
 // ==========================================================================
 
-import { adjustLibraryWindow } from './modules/layout.js';
-import { fetchImage } from './modules/generator.js';
 import { $nextButton } from './modules/generator.js';
 import { $accountSelect } from './modules/account.js';
+import { $addButton } from './modules/account.js';
+import { $cancelButton } from './modules/account.js';
+
+import { adjustLibraryWindow } from './modules/layout.js';
+import { fetchImage } from './modules/generator.js';
 import { handleSelectChange } from './modules/account.js';
 import { hideAccountNew } from './modules/account.js';
 import { addAccount } from './modules/account.js';
-import { $addButton } from './modules/account.js';
-import { $cancelButton } from './modules/account.js';
 
 adjustLibraryWindow();
 fetchImage()
