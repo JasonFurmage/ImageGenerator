@@ -2,6 +2,8 @@
 // Account
 // ==========================================================================
 
+import { isValidEmail } from './helper.js';
+
 export const $accountSelect = document.getElementById('accountSelect');
 export const $accountNew = document.getElementById('accountNew');
 export const $accountTextField = document.getElementById('accountTextField');
@@ -33,7 +35,22 @@ export function hideAccountNew() {
 }
 
 export function addAccount() {
-    console.log('halt i am reptar');
+    const email = $accountTextField.value;
+
+    if (!isValidEmail(email)) {
+        console.log('invalid email');
+    } 
+    
+    else if (accountExists(email)) {
+        console.log('account already exists');
+    }
+
+    else {
+        const newAccount = new Account(email, []);
+        accounts.push(newAccount);
+        addSelectOption(newAccount.email)
+        $accountTextField.value = '';
+    }
 }
 
 function addSelectOption(email) {
