@@ -10,7 +10,7 @@ export const $accountTextField = document.getElementById('accountTextField');
 export const $addButton = document.getElementById('addButton');
 export const $cancelButton = document.getElementById('cancelButton');
 
-let accounts = [];
+const accounts = [];
 
 class Account {
     constructor(email, library) {
