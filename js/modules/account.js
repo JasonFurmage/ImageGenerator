@@ -8,6 +8,15 @@ export const $accountTextField = document.getElementById('accountTextField');
 export const $addButton = document.getElementById('addButton');
 export const $cancelButton = document.getElementById('cancelButton');
 
+let accounts = [];
+
+class Account {
+    constructor(email, library) {
+        this.email = email;
+        this.library = library;
+    }
+}
+
 export function handleSelectChange() {
     const selectedValue = $accountSelect.value;
 
