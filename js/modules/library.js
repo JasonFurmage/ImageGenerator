@@ -7,10 +7,14 @@ const $libraryGallery = document.getElementById('libraryGallery');
 export function loadLibrary(library) {
     $libraryGallery.innerHTML = '';
 
-    library.forEach(url => {
-        const img = document.createElement('img');
-        img.src = url; // Set the source of the img element
-        img.classList.add('library__gallery-item');
-        $libraryGallery.appendChild(img);
+    library.forEach(imgURL => {
+        insertImage(imgURL);
     });
+}
+
+export function insertImage(imgURL) {
+    const img = document.createElement('img');
+    img.src = imgURL;
+    img.classList.add('library__gallery-item');
+    $libraryGallery.prepend(img);
 }

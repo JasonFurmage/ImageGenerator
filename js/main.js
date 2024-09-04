@@ -17,6 +17,7 @@ import { handleSelectChange } from './modules/account.js';
 import { hideAccountNew } from './modules/account.js';
 import { addAccount } from './modules/account.js';
 import { loadLibrary } from './modules/library.js';
+import { insertImage } from './modules/library.js';
 
 adjustLibraryWindow();
 fetchImage()
@@ -28,6 +29,6 @@ $addButton.addEventListener('click', addAccount);
 $cancelButton.addEventListener('click', hideAccountNew);
 
 $saveButton.addEventListener('click', function(){
-    selectedAccount.library.unshift(currentImgURL);
-    loadLibrary(selectedAccount.library);
+    selectedAccount.library.push(currentImgURL);
+    insertImage(currentImgURL);
 });
