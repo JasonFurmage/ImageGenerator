@@ -17,6 +17,7 @@ import { handleSelectChange } from './modules/account.js';
 import { hideAccountNew } from './modules/account.js';
 import { addAccount } from './modules/account.js';
 import { loadLibrary } from './modules/library.js';
+import { clearLibrary } from './modules/library.js';
 import { insertImage } from './modules/library.js';
 
 adjustLibraryWindow();
@@ -24,9 +25,18 @@ fetchImage()
 
 window.addEventListener('resize', adjustLibraryWindow);
 $nextButton.addEventListener('click', fetchImage);
-$accountSelect.addEventListener('change', handleSelectChange);
 $addButton.addEventListener('click', addAccount);
 $cancelButton.addEventListener('click', hideAccountNew);
+
+$accountSelect.addEventListener('change', function(){
+    handleSelectChange();
+    
+    if (selectedAccount) {
+        loadLibrary(selectedAccount.library);
+    } else {
+        clearLibrary()
+    }
+});
 
 $saveButton.addEventListener('click', function(){
     selectedAccount.library.push(currentImgURL);
