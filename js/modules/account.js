@@ -23,6 +23,7 @@ class Account {
 
 export function handleSelectChange() {
     const selectedValue = $accountSelect.value;
+    selectedAccount = null;
 
     if (selectedValue === 'new') {
         $accountNew.classList.remove('hidden');
