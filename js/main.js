@@ -39,6 +39,10 @@ $accountSelect.addEventListener('change', function(){
 });
 
 $saveButton.addEventListener('click', function(){
-    selectedAccount.library.push(currentImgURL);
-    insertImage(currentImgURL);
+    if (selectedAccount) {
+        selectedAccount.library.push(currentImgURL);
+        insertImage(currentImgURL);
+    } else {
+        console.log('no account selected');
+    }
 });
