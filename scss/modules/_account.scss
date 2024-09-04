@@ -8,9 +8,28 @@
     @include e(select) {
         @extend %select-styling;
     }
+
+    @include e(new) {
+        @include mq(medium) {
+            @include flex();
+        }
+    }
     
     @include e(textfield) {
         @extend %textfield-styling;
+
+        @include mq(medium) {
+            flex: 1;
+            margin-right: 15px;
+        }
+    }
+
+    @include e(btns) {
+        @include mq(medium) {
+            @include flex($dir: row-reverse);
+            width: 50%;
+            gap: 15px;
+        }
     }
 
     @include e(select, textfield, btn) {

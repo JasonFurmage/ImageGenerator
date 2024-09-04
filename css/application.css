@@ -398,6 +398,31 @@ body {
   flex-basis: 100%;
 }
 
+@media (min-width: 768px) {
+  /* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+  .account__new {
+    display: flex;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+  .account__textfield {
+    flex: 1;
+    margin-right: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+  .account__btns {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 50%;
+    gap: 15px;
+  }
+}
+
 /* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .account__select {
   margin-bottom: 15px;
