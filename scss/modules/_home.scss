@@ -4,6 +4,7 @@
 
 .home {
     @include flex($wrap: wrap);
+    width: 100%;
     text-align: center;
 
     @include e(heading) {
