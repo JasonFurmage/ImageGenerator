@@ -666,4 +666,11 @@ body {
   margin-bottom: 30px;
 }
 
+@media (min-width: 768px) {
+  /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_shame.scss */
+  .account__new {
+    height: 68.5px;
+  }
+}
+
 /*# sourceMappingURL=application.css.map */
