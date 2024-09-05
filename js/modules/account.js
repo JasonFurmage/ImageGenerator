@@ -3,6 +3,7 @@
 // ==========================================================================
 
 import { isValidEmail } from './helper.js';
+import { toggleVisibility } from './helper.js';
 
 export const $accountSelect = document.getElementById('accountSelect');
 export const $accountNew = document.getElementById('accountNew');
@@ -42,15 +43,13 @@ export function handleSelectChange() {
 }
 
 function showAccountNew() {
-    $accountNew.classList.remove('hidden');
-    $accountSelect.classList.add('hidden');
+    toggleVisibility($accountNew, true);
+    toggleVisibility($accountSelect, false);
 }
 
 export function hideAccountNew() {
-    $accountNew.classList.add('hidden');
-    $accountSelect.classList.remove('hidden');
-
-    const selectedValue = $accountSelect.value;
+    toggleVisibility($accountNew, false);
+    toggleVisibility($accountSelect, true);
 
     if (selectedValue == 'new') {
         $accountSelect.selectedIndex = 0;
