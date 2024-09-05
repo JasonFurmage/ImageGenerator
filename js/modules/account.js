@@ -30,8 +30,7 @@ export function handleSelectChange() {
         $accountSelect.classList.add('hidden');
 
     } else {
-        $accountNew.classList.add('hidden');
-        $accountSelect.classList.remove('hidden');
+        hideAccountNew();
 
         if (selectedValue !== 'default') {
             selectedAccount = getAccount(selectedValue);
@@ -46,7 +45,12 @@ export function handleSelectChange() {
 export function hideAccountNew() {
     $accountNew.classList.add('hidden');
     $accountSelect.classList.remove('hidden');
-    $accountSelect.selectedIndex = 0;
+
+    const selectedValue = $accountSelect.value;
+
+    if (selectedValue == 'new') {
+        $accountSelect.selectedIndex = 0;
+    }
 }
 
 export function addAccount() {
