@@ -24,23 +24,20 @@ class Account {
 
 export function handleSelectChange() {
     const selectedValue = $accountSelect.value;
-    selectedAccount = null;
+    const isNew = selectedValue === 'new';
+    const isDefault = selectedValue === 'default';
 
-    if (selectedValue === 'new') {
-        toggleVisibility($accountNew, true);
-        toggleVisibility($accountSelect, false);
+    toggleVisibility($accountNew, isNew);
+    toggleVisibility($accountSelect, !isNew);
 
-    } else {
-        toggleVisibility($accountNew, false);
-        toggleVisibility($accountSelect, true);
+    if (!isNew && !isDefault) {
+        selectedAccount = getAccount(selectedValue);
 
-        if (selectedValue !== 'default') {
-            selectedAccount = getAccount(selectedValue);
-
-            if (!selectedAccount) {
-                console.log('account not found');
-            }
+        if (!selectedAccount) {
+            console.log('account not found');
         }
+    } else {
+        selectedAccount = null;
     }
 }
 
