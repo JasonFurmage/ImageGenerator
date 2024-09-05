@@ -44,6 +44,11 @@ export function handleSelectChange() {
     }
 }
 
+export function cancelAddAccount() {
+    $accountSelect.selectedIndex = 0;
+    handleSelectChange();
+}
+
 export function addAccount() {
     const email = $accountTextField.value;
 
