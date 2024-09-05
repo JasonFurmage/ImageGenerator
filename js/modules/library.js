@@ -3,8 +3,9 @@
 // ==========================================================================
 
 import { libraryElements } from './elements.js';
+export { loadLibrary, insertImage, clearLibrary, updateLibraryText }
 
-export function loadLibrary(library) {
+function loadLibrary(library) {
     clearLibrary();
 
     library.forEach(imgURL => {
@@ -12,7 +13,7 @@ export function loadLibrary(library) {
     });
 }
 
-export function insertImage(imgURL) {
+function insertImage(imgURL) {
     const img = document.createElement('img');
     img.src = imgURL;
     img.classList.add('library__gallery-item');
@@ -20,7 +21,7 @@ export function insertImage(imgURL) {
     updateLibraryText();
 }
 
-export function clearLibrary() {
+function clearLibrary() {
     libraryElements.libraryGallery.innerHTML = '';
     updateLibraryText();
 }

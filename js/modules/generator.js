@@ -2,11 +2,13 @@
 // Generator
 // ==========================================================================
 
+export { currentImgURL, fetchImage, checkStatus, generateImage }
+
 const picsumURL = 'https://picsum.photos/400/300';
 
-export let currentImgURL;
+let currentImgURL;
 
-export function fetchImage() {
+function fetchImage() {
     fetch(picsumURL)
         .then(checkStatus)  
         .then(response => response.url)
@@ -14,7 +16,7 @@ export function fetchImage() {
         .catch(error => console.log('Looks like there was a problem!', error))
 }
 
-export function checkStatus(response) {
+function checkStatus(response) {
     if (response.ok) {
         return Promise.resolve(response);
     } else {
@@ -22,7 +24,7 @@ export function checkStatus(response) {
     }
 }
 
-export function generateImage(imgURL) {
+function generateImage(imgURL) {
     const generatorImage = document.querySelector('.generator__image');
     generatorImage.src = imgURL;
     currentImgURL = imgURL;

@@ -4,6 +4,7 @@
 
 import { libraryElements } from './elements.js';
 import { insertElementAtIndex } from './helper.js';
+export { adjustLibraryWindow }
 
 const breakpoints = {
     small: 1,
@@ -12,7 +13,7 @@ const breakpoints = {
     xLarge: 1200
 };
 
-export function adjustLibraryWindow() {
+function adjustLibraryWindow() {
     const width = window.innerWidth;
 
     if (width < breakpoints.medium) {

@@ -2,22 +2,11 @@
 // Main
 // ==========================================================================
 
-import { accountElements } from './modules/elements.js';
-import { generatorElements } from './modules/elements.js';
-
-import { selectedAccount } from './modules/account.js';
-import { handleSelectChange } from './modules/account.js';
-import { addAccount } from './modules/account.js';
-import { cancelAddAccount } from './modules/account.js';
-
-import { currentImgURL } from './modules/generator.js';
-import { fetchImage } from './modules/generator.js';
-
+import { accountElements, generatorElements } from './modules/elements.js';
+import { selectedAccount, handleSelectChange, addAccount, cancelAddAccount } from './modules/account.js';
+import { currentImgURL, fetchImage } from './modules/generator.js';
 import { adjustLibraryWindow } from './modules/layout.js';
-
-import { loadLibrary } from './modules/library.js';
-import { clearLibrary } from './modules/library.js';
-import { insertImage } from './modules/library.js';
+import { loadLibrary, clearLibrary, insertImage } from './modules/library.js';
 
 adjustLibraryWindow();
 fetchImage()

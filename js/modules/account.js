@@ -3,10 +3,10 @@
 // ==========================================================================
 
 import { accountElements} from './elements.js';
-import { isValidEmail } from './helper.js';
-import { toggleVisibility } from './helper.js';
+import { isValidEmail, toggleVisibility } from './helper.js';
+export { selectedAccount, handleSelectChange, cancelAddAccount, addAccount }
 
-export let selectedAccount;
+let selectedAccount;
 
 const accounts = [];
 
@@ -17,7 +17,7 @@ class Account {
     }
 }
 
-export function handleSelectChange() {
+function handleSelectChange() {
     const selectedValue = accountElements.accountSelect.value;
     const isNew = selectedValue === 'new';
     const isDefault = selectedValue === 'default';
@@ -36,12 +36,12 @@ export function handleSelectChange() {
     }
 }
 
-export function cancelAddAccount() {
+function cancelAddAccount() {
     accountElements.accountSelect.selectedIndex = 0;
     handleSelectChange();
 }
 
-export function addAccount() {
+function addAccount() {
     const email = accountElements.accountTextField.value;
 
     if (!isValidEmail(email)) {
