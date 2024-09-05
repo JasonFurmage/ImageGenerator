@@ -27,10 +27,12 @@ export function handleSelectChange() {
     selectedAccount = null;
 
     if (selectedValue === 'new') {
-        showAccountNew();
+        toggleVisibility($accountNew, true);
+        toggleVisibility($accountSelect, false);
 
     } else {
-        hideAccountNew();
+        toggleVisibility($accountNew, false);
+        toggleVisibility($accountSelect, true);
 
         if (selectedValue !== 'default') {
             selectedAccount = getAccount(selectedValue);
@@ -39,20 +41,6 @@ export function handleSelectChange() {
                 console.log('account not found');
             }
         }
-    }
-}
-
-function showAccountNew() {
-    toggleVisibility($accountNew, true);
-    toggleVisibility($accountSelect, false);
-}
-
-export function hideAccountNew() {
-    toggleVisibility($accountNew, false);
-    toggleVisibility($accountSelect, true);
-
-    if (selectedValue == 'new') {
-        $accountSelect.selectedIndex = 0;
     }
 }
 
