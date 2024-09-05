@@ -31,6 +31,7 @@ export function handleSelectChange() {
 
     } else {
         $accountNew.classList.add('hidden');
+        $accountSelect.classList.remove('hidden');
 
         if (selectedValue !== 'default') {
             selectedAccount = getAccount(selectedValue);
