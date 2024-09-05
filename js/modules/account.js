@@ -78,13 +78,8 @@ export function addAccount() {
 }
 
 function addSelectOption(email) {
-    const newOption = document.createElement('option');
-    newOption.value = email;
-    newOption.textContent = email;
-
-    $accountSelect.appendChild(newOption);
-    $accountSelect.value = email;
-
+    const newOption = new Option(email, email, undefined, true);
+    $accountSelect.add(newOption);
     handleSelectChange();
 }
 
