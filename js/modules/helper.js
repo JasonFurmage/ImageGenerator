@@ -3,7 +3,7 @@
 // ==========================================================================
 
 export function insertElementAtIndex(parent, child, index) {
-
+    
     const children = Array.from(parent.childNodes);
 
     if (index === children.length) {

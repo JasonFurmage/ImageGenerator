@@ -2,6 +2,7 @@
 // Layout
 // ==========================================================================
 
+import { libraryElements } from './elements.js';
 import { insertElementAtIndex } from './helper.js';
 
 const breakpoints = {
@@ -11,20 +12,16 @@ const breakpoints = {
     xLarge: 1200
 };
 
-const $libraryFull = document.getElementById('libraryFull');
-const $libraryMini = document.getElementById('libraryMini');
-const $libraryWindow = document.getElementById('libraryWindow');
-
 export function adjustLibraryWindow() {
     const width = window.innerWidth;
 
     if (width < breakpoints.medium) {
-        if (!$libraryFull.contains($libraryWindow)) {
-            insertElementAtIndex($libraryFull, $libraryWindow, 2);
+        if (!libraryElements.libraryFull.contains(libraryElements.libraryWindow)) {
+            insertElementAtIndex(libraryElements.libraryFull, libraryElements.libraryWindow, 2);
         }
     } else {
-        if (!$libraryMini.contains($libraryWindow)) {
-            insertElementAtIndex($libraryMini, $libraryWindow, 0);
+        if (!libraryElements.libraryMini.contains(libraryElements.libraryWindow)) {
+            insertElementAtIndex(libraryElements.libraryMini, libraryElements.libraryWindow, 0);
         }
     }
 }
