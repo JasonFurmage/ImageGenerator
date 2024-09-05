@@ -6,9 +6,8 @@ import { accountElements} from './elements.js';
 import { isValidEmail, toggleVisibility } from './helper.js';
 export { selectedAccount, handleSelectChange, cancelAddAccount, addAccount }
 
-let selectedAccount;
-
 const accounts = [];
+let selectedAccount;
 
 class Account {
     constructor(email, library) {
@@ -36,9 +35,8 @@ function handleSelectChange() {
     }
 }
 
-function cancelAddAccount() {
-    accountElements.accountSelect.selectedIndex = 0;
-    handleSelectChange();
+function getAccount(email) {
+    return accounts.find(account => account.email === email);
 }
 
 function addAccount() {
@@ -65,6 +63,7 @@ function addSelectOption(email) {
     handleSelectChange();
 }
 
-function getAccount(email) {
-    return accounts.find(account => account.email === email);
+function cancelAddAccount() {
+    accountElements.accountSelect.selectedIndex = 0;
+    handleSelectChange();
 }

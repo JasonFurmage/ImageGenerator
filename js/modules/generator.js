@@ -5,7 +5,6 @@
 export { currentImgURL, fetchImage, checkStatus, generateImage }
 
 const picsumURL = 'https://picsum.photos/400/300';
-
 let currentImgURL;
 
 function fetchImage() {
