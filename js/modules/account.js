@@ -26,8 +26,7 @@ export function handleSelectChange() {
     selectedAccount = null;
 
     if (selectedValue === 'new') {
-        $accountNew.classList.remove('hidden');
-        $accountSelect.classList.add('hidden');
+        showAccountNew();
 
     } else {
         hideAccountNew();
@@ -40,6 +39,11 @@ export function handleSelectChange() {
             }
         }
     }
+}
+
+function showAccountNew() {
+    $accountNew.classList.remove('hidden');
+    $accountSelect.classList.add('hidden');
 }
 
 export function hideAccountNew() {
