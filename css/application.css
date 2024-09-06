@@ -673,4 +673,11 @@ body {
   }
 }
 
+@media (min-width: 768px) {
+  /* line 11, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_shame.scss */
+  .library__window {
+    aspect-ratio: 1 / 1;
+  }
+}
+
 /*# sourceMappingURL=application.css.map */
