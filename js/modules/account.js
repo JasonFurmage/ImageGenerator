@@ -33,6 +33,8 @@ function handleSelectChange() {
     } else {
         selectedAccount = null;
     }
+
+    clearTextField();
 }
 
 function getAccount(email) {
@@ -51,9 +53,7 @@ function addAccount() {
     else {
         const newAccount = new Account(email, []);
         accounts.push(newAccount);
-        
         addSelectOption(newAccount.email)
-        accountElements.accountTextField.value = '';
     }
 }
 
@@ -66,4 +66,8 @@ function addSelectOption(email) {
 function cancelAddAccount() {
     accountElements.accountSelect.selectedIndex = 0;
     handleSelectChange();
+}
+
+function clearTextField() {
+    accountElements.accountTextField.value = '';
 }
