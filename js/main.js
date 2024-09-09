@@ -32,11 +32,15 @@ accountElements.accountSelect.addEventListener('change', function(){
 generatorElements.saveButton.addEventListener('click', function(){
     if (selectedAccount) {
 
-        if (!selectedAccount.library.includes(currentImgURL)) {
-            selectedAccount.library.push(currentImgURL);
-            insertImage(currentImgURL);
+        if (currentImgURL) {
+            if (!selectedAccount.library.includes(currentImgURL)) {
+                selectedAccount.library.push(currentImgURL);
+                insertImage(currentImgURL);
+            } else {
+                console.log('image already exists');
+            }
         } else {
-            console.log('image already exists');
+            console.log('failed to load image');
         }
 
     } else {
