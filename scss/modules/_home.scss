@@ -5,7 +5,6 @@
 .home {
     @include flex($wrap: wrap);
     width: 100%;
-    text-align: center;
 
     @include mq(medium) {
         display: flex!important;
@@ -13,6 +12,7 @@
 
     @include e(heading) {
         flex-basis: 100%;
+        text-align: center;
     }
 
     @include e(title) {

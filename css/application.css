@@ -569,7 +569,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -582,6 +581,7 @@ body {
 /* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .home__heading {
   flex-basis: 100%;
+  text-align: center;
 }
 
 /* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
