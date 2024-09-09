@@ -606,6 +606,7 @@ body {
 
 /* line 15, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .library--mini {
+  position: relative;
   flex-basis: 50%;
 }
 
@@ -638,7 +639,11 @@ body {
 @media (min-width: 768px) {
   /* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
   .library__window {
-    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     margin-right: 15px;
   }
 }
@@ -677,13 +682,6 @@ body {
   /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_shame.scss */
   .account__new {
     height: 68.5px;
-  }
-}
-
-@media (min-width: 768px) {
-  /* line 11, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_shame.scss */
-  .library__window {
-    aspect-ratio: 1 / 1;
   }
 }
 

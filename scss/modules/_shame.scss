@@ -7,9 +7,3 @@
         height: 68.5px;
     }
 }
-
-.library__window {
-    @include mq(medium) {
-        aspect-ratio: 1 / 1;
-    }
-}
