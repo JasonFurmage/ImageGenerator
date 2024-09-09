@@ -15,7 +15,7 @@
         margin-top: 0;
     }
 
-    @include e(btn) {
+    @include e(switcher) {
         margin-top: $spacing-lg;
     }
 
