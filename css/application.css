@@ -6,6 +6,14 @@
   border: 1px solid #ccc;
 }
 
+/* line 11, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_placeholders.scss */
+.library__placeholder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -650,10 +658,6 @@ body {
 
 /* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .library__placeholder {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   color: #757575;
 }
 
