@@ -5,7 +5,8 @@
 export { homeElements, accountElements, generatorElements, libraryElements }
 
 const homeElements = {
-    libraryButton: document.getElementById('libraryButton'),
+    home: document.getElementById('home'),
+    libraryButton: document.getElementById('libraryButton')
 };
 
 const accountElements = {

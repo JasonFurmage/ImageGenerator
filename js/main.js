@@ -2,7 +2,7 @@
 // Main
 // ==========================================================================
 
-import { homeElements, accountElements, generatorElements } from './modules/elements.js';
+import { homeElements, accountElements, generatorElements, libraryElements } from './modules/elements.js';
 import { selectedAccount, handleSelectChange, addAccount, cancelAddAccount } from './modules/account.js';
 import { currentImgURL, fetchImage } from './modules/generator.js';
 import { toggleVisibility } from './modules/helper.js';
@@ -36,4 +36,9 @@ generatorElements.saveButton.addEventListener('click', function(){
     } else {
         console.log('no account selected');
     }
+});
+
+homeElements.libraryButton.addEventListener('click', function(){
+    toggleVisibility(libraryElements.libraryFull, true);
+    toggleVisibility(homeElements.home, false);
 });
