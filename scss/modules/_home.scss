@@ -18,4 +18,8 @@
     @include e(btn) {
         margin-top: 30px;
     }
+
+    @include mq(medium) {
+        display: flex !important;
+    }
 }
