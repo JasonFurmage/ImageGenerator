@@ -3,7 +3,7 @@
 // ==========================================================================
 
 .account {
-    flex-basis: 100%;
+    width: 100%;
 
     @include mq(medium) {
         margin-top: $spacing-sm;

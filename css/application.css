@@ -395,7 +395,7 @@ body {
 
 /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_account.scss */
 .account {
-  flex-basis: 100%;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -522,7 +522,7 @@ body {
 @media (min-width: 768px) {
   /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_generator.scss */
   .generator {
-    flex-basis: 50%;
+    width: 50%;
   }
 }
 
@@ -580,7 +580,7 @@ body {
 
 /* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .home__heading {
-  flex-basis: 100%;
+  width: 100%;
   text-align: center;
 }
 
@@ -607,7 +607,7 @@ body {
 /* line 15, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .library--mini {
   position: relative;
-  flex-basis: 50%;
+  width: 50%;
 }
 
 /* line 15, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
