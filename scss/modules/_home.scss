@@ -7,6 +7,14 @@
     width: 100%;
     text-align: center;
 
+    @include e(heading) {
+        flex-basis: 100%;
+    }
+
+    @include e(title) {
+        margin-top: 0;
+    }
+
     @include e(btn) {
         margin-top: $spacing-lg;
     }
