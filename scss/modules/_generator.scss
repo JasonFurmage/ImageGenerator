@@ -3,6 +3,10 @@
 // ==========================================================================
 
 .generator {
+    @include mq(medium) {
+        flex-basis: 50%;
+    }
+
     @include e(window) {
         margin-bottom: $spacing-sm;
     }
@@ -16,9 +20,5 @@
 
     @include e(btns) {
         @include flex($dir: row);
-    }
-
-    @include mq(medium) {
-        flex-basis: 50%;
     }
 }

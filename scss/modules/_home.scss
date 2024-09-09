@@ -7,6 +7,10 @@
     width: 100%;
     text-align: center;
 
+    @include mq(medium) {
+        display: flex !important;
+    }
+
     @include e(heading) {
         flex-basis: 100%;
     }
@@ -17,9 +21,5 @@
 
     @include e(switcher) {
         margin-top: $spacing-lg;
-    }
-
-    @include mq(medium) {
-        display: flex !important;
     }
 }

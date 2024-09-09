@@ -399,6 +399,13 @@ body {
 }
 
 @media (min-width: 768px) {
+  /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_account.scss */
+  .account {
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 768px) {
   /* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
   .account__new {
     display: flex;
@@ -436,13 +443,6 @@ body {
 /* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .account__btn {
   margin-bottom: 15px;
-}
-
-@media (min-width: 768px) {
-  /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_account.scss */
-  .account {
-    margin-top: 15px;
-  }
 }
 
 /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_buttons.scss */
@@ -519,6 +519,13 @@ body {
   }
 }
 
+@media (min-width: 768px) {
+  /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_generator.scss */
+  .generator {
+    flex-basis: 50%;
+  }
+}
+
 /* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .generator__window {
   margin-bottom: 15px;
@@ -536,13 +543,6 @@ body {
 .generator__btns {
   display: flex;
   flex-direction: row;
-}
-
-@media (min-width: 768px) {
-  /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_generator.scss */
-  .generator {
-    flex-basis: 50%;
-  }
 }
 
 /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_helper.scss */
@@ -572,6 +572,13 @@ body {
   text-align: center;
 }
 
+@media (min-width: 768px) {
+  /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_home.scss */
+  .home {
+    display: flex !important;
+  }
+}
+
 /* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .home__heading {
   flex-basis: 100%;
@@ -585,13 +592,6 @@ body {
 /* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .home__switcher {
   margin-top: 30px;
-}
-
-@media (min-width: 768px) {
-  /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_home.scss */
-  .home {
-    display: flex !important;
-  }
 }
 
 /* line 15, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */

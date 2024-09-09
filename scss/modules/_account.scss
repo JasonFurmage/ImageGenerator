@@ -5,6 +5,10 @@
 .account {
     flex-basis: 100%;
 
+    @include mq(medium) {
+        margin-top: $spacing-sm;
+    }
+
     @include e(select) {
         @extend %select-styling;
     }
@@ -34,9 +38,5 @@
 
     @include e(select, textfield, btn) {
         margin-bottom: $spacing-sm;
-    }
-
-    @include mq(medium) {
-        margin-top: $spacing-sm;
     }
 }
