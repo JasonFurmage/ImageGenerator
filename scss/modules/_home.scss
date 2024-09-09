@@ -16,7 +16,7 @@
     }
 
     @include e(btn) {
-        margin-top: 30px;
+        margin-top: $spacing-lg;
     }
 
     @include mq(medium) {

@@ -29,7 +29,7 @@
         @include mq(medium) {
             position: absolute;
             top: 0; left: 0; right: 0; bottom: 0;
-            margin-right: 15px;
+            margin-right: $spacing-sm;
         }
     }
 
@@ -55,7 +55,7 @@
 
     @include e(btn) {
         width: auto;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: $spacing-lg;
+        margin-bottom: $spacing-lg;
     }
 }

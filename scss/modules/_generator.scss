@@ -4,7 +4,7 @@
 
 .generator {
     @include e(window) {
-        margin-bottom: 15px;
+        margin-bottom: $spacing-sm;
     }
 
     @include e(image) {
