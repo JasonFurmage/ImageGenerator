@@ -8,7 +8,7 @@
     text-align: center;
 
     @include mq(medium) {
-        display: flex !important;
+        display: flex!important;
     }
 
     @include e(heading) {
