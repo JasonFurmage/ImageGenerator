@@ -42,3 +42,8 @@ homeElements.libraryButton.addEventListener('click', function(){
     toggleVisibility(libraryElements.libraryFull, true);
     toggleVisibility(homeElements.home, false);
 });
+
+libraryElements.backButton.addEventListener('click', function() {
+    toggleVisibility(homeElements.home, true);
+    toggleVisibility(libraryElements.libraryFull, false);
+});

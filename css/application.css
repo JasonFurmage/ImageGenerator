@@ -587,6 +587,13 @@ body {
   margin-top: 30px;
 }
 
+@media (min-width: 768px) {
+  /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_home.scss */
+  .home {
+    display: flex !important;
+  }
+}
+
 /* line 15, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .icn--left {
   margin-right: 5px;

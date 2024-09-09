@@ -27,5 +27,6 @@ const libraryElements = {
     libraryMini: document.getElementById('libraryMini'),
     libraryWindow: document.getElementById('libraryWindow'),
     libraryGallery: document.getElementById('libraryGallery'),
-    libraryText: document.getElementById('libraryText')
+    libraryText: document.getElementById('libraryText'),
+    backButton: document.getElementById('backButton')
 };
