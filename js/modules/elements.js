@@ -2,7 +2,11 @@
 // Elements
 // ==========================================================================
 
-export { accountElements, generatorElements, libraryElements }
+export { homeElements, accountElements, generatorElements, libraryElements }
+
+const homeElements = {
+    libraryButton: document.getElementById('libraryButton'),
+};
 
 const accountElements = {
     accountSelect: document.getElementById('accountSelect'),
