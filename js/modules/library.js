@@ -28,9 +28,9 @@ function clearLibrary() {
 
 function updateLibraryText() {
     if (libraryElements.libraryGallery.children.length === 1) {
-        libraryElements.libraryText.textContent = '';
+        libraryElements.libraryPlaceholder.textContent = '';
     } 
     else if (libraryElements.libraryGallery.children.length === 0) {
-        libraryElements.libraryText.textContent = 'No Saved Images';
+        libraryElements.libraryPlaceholder.textContent = 'No Saved Images';
     }
 }
