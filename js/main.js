@@ -31,8 +31,14 @@ accountElements.accountSelect.addEventListener('change', function(){
 
 generatorElements.saveButton.addEventListener('click', function(){
     if (selectedAccount) {
-        selectedAccount.library.push(currentImgURL);
-        insertImage(currentImgURL);
+
+        if (!selectedAccount.library.includes(currentImgURL)) {
+            selectedAccount.library.push(currentImgURL);
+            insertImage(currentImgURL);
+        } else {
+            console.log('image already exists');
+        }
+
     } else {
         console.log('no account selected');
     }
