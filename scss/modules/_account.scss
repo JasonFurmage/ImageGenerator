@@ -20,7 +20,7 @@
 
         @include mq(medium) {
             flex: 1;
-            margin-right: 15px;
+            margin-right: $spacing-sm;
         }
     }
 
@@ -28,15 +28,15 @@
         @include mq(medium) {
             @include flex($dir: row-reverse);
             width: 50%;
-            gap: 15px;
+            gap: $spacing-sm;
         }
     }
 
     @include e(select, textfield, btn) {
-        margin-bottom: 15px;
+        margin-bottom: $spacing-sm;
     }
 
     @include mq(medium) {
-        margin-top: 15px;
+        margin-top: $spacing-sm;
     }
 }
