@@ -545,6 +545,16 @@ body {
   }
 }
 
+/* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_heading.scss */
+.heading {
+  flex-basis: 100%;
+}
+
+/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.heading__title {
+  margin-top: 0;
+}
+
 /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_helper.scss */
 .hidden {
   display: none !important;
@@ -570,16 +580,6 @@ body {
   flex-wrap: wrap;
   width: 100%;
   text-align: center;
-}
-
-/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
-.home__heading {
-  flex-basis: 100%;
-}
-
-/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
-.home__title {
-  margin-top: 0;
 }
 
 /* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
