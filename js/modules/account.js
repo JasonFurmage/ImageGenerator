@@ -60,7 +60,9 @@ function addAccount() {
 function addSelectOption(email) {
     const newOption = new Option(email, email, undefined, true);
     accountElements.accountSelect.add(newOption);
-    handleSelectChange();
+
+    const event = new Event('change');
+    accountElements.accountSelect.dispatchEvent(event);
 }
 
 function cancelAddAccount() {
