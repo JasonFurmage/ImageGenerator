@@ -462,23 +462,23 @@ body {
 }
 
 /* line 23, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
-.btn--black {
+.btn--primary {
   background-color: #000;
   color: #fff;
 }
 
 /* line 29, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
-.btn--black:hover {
+.btn--primary:hover {
   background-color: #ccc;
 }
 
 /* line 23, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
-.btn--white {
+.btn--secondary {
   background-color: #fff;
 }
 
 /* line 29, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
-.btn--white:hover {
+.btn--secondary:hover {
   background-color: #ccc;
 }
 

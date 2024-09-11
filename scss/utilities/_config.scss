@@ -19,8 +19,8 @@ $light-grey     :   #f1f1f1;
 $dark-grey      :   #757575;
 
 $btn-colors: (
-    "black" : ($black, $grey),
-    "white" : ($white, $grey)
+    "primary" : ($black, $grey),
+    "secondary" : ($white, $grey)
 );
 
 $brkpoint-sm  : 1px;
