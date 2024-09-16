@@ -7,7 +7,7 @@
 }
 
 /* line 11, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_placeholders.scss */
-.library__placeholder {
+.gallery__placeholder {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -527,6 +527,54 @@ body {
   }
 }
 
+/* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_gallery.scss */
+.gallery {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+@media (max-width: 767px) {
+  /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_gallery.scss */
+  .gallery {
+    flex: 1;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_gallery.scss */
+  .gallery {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-right: 15px;
+  }
+}
+
+/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.gallery__window {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.gallery__item {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.gallery__placeholder {
+  color: #757575;
+}
+
 @media (min-width: 768px) {
   /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_generator.scss */
   .generator {
@@ -613,12 +661,6 @@ body {
 }
 
 /* line 15, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
-.library--mini {
-  position: relative;
-  width: 50%;
-}
-
-/* line 15, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .library--full {
   display: flex;
   flex-direction: column;
@@ -627,52 +669,10 @@ body {
   width: 100%;
 }
 
-/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
-.library__window {
+/* line 15, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+.library--mini {
   position: relative;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  padding: 20px;
-  overflow-y: auto;
-}
-
-@media (max-width: 767px) {
-  /* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
-  .library__window {
-    flex: 1;
-    width: 100%;
-  }
-}
-
-@media (min-width: 768px) {
-  /* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
-  .library__window {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin-right: 15px;
-  }
-}
-
-/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
-.library__placeholder {
-  color: #757575;
-}
-
-/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
-.library__gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-}
-
-/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
-.library__gallery-item {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
+  width: 50%;
 }
 
 /* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
