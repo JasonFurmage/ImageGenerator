@@ -14,11 +14,9 @@ export class LibraryController {
     #setupEventLiseners() {
         this.view.$homeButton.addEventListener('click', this.#handleViewButtonClick.bind(this));
         this.view.$libraryButton.addEventListener('click', this.#handleViewButtonClick.bind(this));
-        document.addEventListener('add-image', this.#handleAddImage.bind(this));
-        document.addEventListener('add-images', this.#handleAddImages.bind(this));
-        document.addEventListener('clear-images', this.#handleClearImages.bind(this));
         document.addEventListener('account-change', this.#handleAccountChange.bind(this));
         document.addEventListener('image-count-change', this.#handleImageCountChange.bind(this));
+        window.addEventListener('resize', this.#handleWindowResize.bind(this));
     }
 
     #handleViewButtonClick(event) {
@@ -37,18 +35,8 @@ export class LibraryController {
         this.view.updateHomeButtonTitle(count);
     }
 
-    #handleAddImage(event) {
-        const image = event.detail;
-        this.view.insertImage(image);
-    }
-
-    #handleAddImages(event) {
-        const images = event.detail;
-        this.view.clearGallery();
-        this.view.insertImages(images);
-    }
-
-    #handleClearImages() {
-        this.view.clearGallery();
+    #handleWindowResize() {
+        const width = window.innerWidth
+        this.view.adjustGalleryPosition(width);
     }
 }

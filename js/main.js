@@ -2,58 +2,15 @@
 // Main
 // ==========================================================================
 
-import { homeElements, accountElements, generatorElements, libraryElements } from './modules/elements.js';
-import { selectedAccount, handleSelectChange, addAccount, cancelAddAccount } from './modules/account.js';
-import { currentImgURL, fetchImage } from './modules/generator.js';
-import { toggleVisibility } from './modules/helper.js';
-import { adjustLibraryWindow } from './modules/layout.js';
-import { loadLibrary, clearLibrary, insertImage } from './modules/library.js';
+import { GeneratorController } from "./modules/controllers/GeneratorController.js";
+import { AccountsController } from "./modules/controllers/AccountsController.js";
+import { LibraryController } from "./modules/controllers/LibraryController.js";
+import { GalleryController } from "./modules/controllers/GalleryController.js";
 
-adjustLibraryWindow();
-fetchImage()
+const generatorController = new GeneratorController();
+const accountsController = new AccountsController();
+const libraryController = new LibraryController();
+const galleryController = new GalleryController();
 
-window.addEventListener('resize', adjustLibraryWindow);
-generatorElements.nextButton.addEventListener('click', fetchImage);
-accountElements.addButton.addEventListener('click', addAccount);
-accountElements.cancelButton.addEventListener('click', cancelAddAccount);
-
-accountElements.accountSelect.addEventListener('change', function(){
-    handleSelectChange();
-    
-    if (selectedAccount) {
-        loadLibrary(selectedAccount.library);
-        toggleVisibility(homeElements.libraryButton, true)
-    } else {
-        clearLibrary()
-        toggleVisibility(homeElements.libraryButton, false)
-    }
-});
-
-generatorElements.saveButton.addEventListener('click', function(){
-    if (selectedAccount) {
-
-        if (currentImgURL) {
-            if (!selectedAccount.library.includes(currentImgURL)) {
-                selectedAccount.library.push(currentImgURL);
-                insertImage(currentImgURL);
-            } else {
-                console.log('image already exists');
-            }
-        } else {
-            console.log('failed to load image');
-        }
-
-    } else {
-        console.log('no account selected');
-    }
-});
-
-homeElements.libraryButton.addEventListener('click', function(){
-    toggleVisibility(libraryElements.libraryFull, true);
-    toggleVisibility(homeElements.home, false);
-});
-
-libraryElements.backButton.addEventListener('click', function() {
-    toggleVisibility(homeElements.home, true);
-    toggleVisibility(libraryElements.libraryFull, false);
-});
+libraryController.view.adjustGalleryPosition();
+generatorController.generateImage();
