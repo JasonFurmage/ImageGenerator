@@ -11,46 +11,46 @@
 <body>
     <div class="container">
         <div class="content">
-            <div class="home" id="home">
+            <div class="home">
                 <div class="home__heading">
                     <h1 class="home__title">Image Generator</h1>
                     <p class="home__subtitle hidden-sm-down">Simply create an account and save your images.</p>
                 </div>
                 <div class="account">
-                    <select class="account__select" id="accountSelect">
+                    <select class="account__select">
                         <option value="default">Choose account</option>
                         <option value="new">Add new account...</option>
                     </select>
-                    <div class="account__new hidden" id="accountNew">
-                        <input class="account__textfield" type="email" maxlength="50" placeholder="Enter your email address" id="accountTextField">
+                    <div class="account__new hidden">
+                        <input class="account__textfield" type="email" maxlength="50" placeholder="Enter your email address">
                         <div class="account__btns">
-                            <button class="account__btn btn btn--primary" id="addButton">Add</button>
-                            <button class="account__btn btn btn--secondary" id="cancelButton">Cancel</button>
+                            <button class="account__btn btn btn--primary">Add</button>
+                            <button class="account__btn btn btn--secondary">Cancel</button>
                         </div>
                     </div>
                 </div>
-                <div class="library library--mini hidden-sm-down" id="libraryMini">
+                <div class="library library--mini hidden-sm-down">
                 </div>
                 <div class="generator">
                     <div class="generator__window">
                         <img src="img/placeholder.png" class="generator__image">
                     </div>
                     <div class="generator__btns">
-                        <button class="generator__btn btn btn--secondary" id="nextButton">Next <i class="fa-solid fa-arrow-right icn--right"></i></button>
-                        <button class="generator__btn btn btn--primary" id="saveButton">Save <i class="fa-solid fa-floppy-disk icn--right"></i></button>
+                        <button class="generator__btn btn btn--secondary">Next <i class="fa-solid fa-arrow-right icn--right"></i></button>
+                        <button class="generator__btn btn btn--primary">Save <i class="fa-solid fa-floppy-disk icn--right"></i></button>
                     </div>
                 </div>
-                <button class="home__btn btn btn--primary hidden-md-up" id="libraryButton">View Saved Images</button>
+                <button class="home__btn btn btn--primary hidden-md-up">View Saved Images</button>
             </div>
-            <div class="library library--full hidden hidden-md-up" id="libraryFull">
+            <div class="library library--full hidden hidden-md-up">
                 <div class="library__heading">
                     <h2 class="library__title">Library</h2>
                 </div>
-                <div class="library__window" id="libraryWindow">
-                    <div class="library__gallery" id="libraryGallery">
+                <div class="library__window">
+                    <div class="library__gallery">
                     </div>
                 </div>
-                <button class="library__btn btn btn--secondary" id="backButton"><i class="fa-solid fa-arrow-left icn--left"></i> Back</button>
+                <button class="library__btn btn btn--secondary"><i class="fa-solid fa-arrow-left icn--left"></i> Back</button>
             </div>
         </div>
     </div>
