@@ -2,9 +2,12 @@
 // Gallery View
 // ==========================================================================
 
+import { toggleVisibility } from "../helpers/Helper.js";
+
 export class GalleryView {
     constructor() {
         this.$galleryWindow = document.querySelector('.gallery__window');
+        this.$galleryPlaceholder = document.querySelector('.gallery__placeholder');
         this.imgClass = 'gallery__item';
     }
 
@@ -21,7 +24,12 @@ export class GalleryView {
         });
     }
 
+    showPlaceholder(show) {
+        toggleVisibility(this.$galleryPlaceholder, show);
+    }
+
     clearGallery() {
         this.$galleryWindow.innerHTML = '';
+        this.$galleryWindow.prepend(this.$galleryPlaceholder);
     }
 }

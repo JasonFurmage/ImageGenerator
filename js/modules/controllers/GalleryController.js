@@ -15,6 +15,7 @@ export class GalleryController {
         document.addEventListener('add-image', this.#handleAddImage.bind(this));
         document.addEventListener('add-images', this.#handleAddImages.bind(this));
         document.addEventListener('clear-images', this.#handleClearImages.bind(this));
+        document.addEventListener('image-count-change', this.#handleImageCountChange.bind(this));
     }
 
     #handleAddImage(event) {
@@ -24,11 +25,19 @@ export class GalleryController {
 
     #handleAddImages(event) {
         const images = event.detail;
+        const count = images.length
         this.view.clearGallery();
         this.view.insertImages(images);
+        this.view.showPlaceholder(count === 0 ? true : false);
+    }
+
+    #handleImageCountChange(event) {
+        const count = event.detail;
+        this.view.showPlaceholder(count === 0 ? true : false);
     }
 
     #handleClearImages() {
         this.view.clearGallery();
+        this.view.showPlaceholder(true);
     }
 }
