@@ -51,3 +51,19 @@
 	z-index:100;
 }
 
+.custom-class {
+	border-radius: 0!important;
+	margin: 0!important;
+}
+
+.custom-class-error {
+	background-color: #ff6961;
+}
+
+.custom-class-warning {
+	background-color: #FFFF7B;
+}
+
+.custom-class-success {
+	background-color: #77DD77;
+}
