@@ -33,7 +33,7 @@ export class GeneratorController {
             this.view.$image.src = this.model.image;
     
         } catch (error) {
-            console.log(error)
+            $.notifi(error, {noticeClass: 'custom-class custom-class-error'});
         }
     }
 }
