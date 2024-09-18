@@ -35,7 +35,8 @@ export class LibraryView {
         return username.charAt(0).toUpperCase() + username.slice(1);
     }
 
-    adjustGalleryPosition(width) {
+    adjustGalleryPosition() {
+        const width = window.innerWidth;
         const targetLibrary = width < 768 ? this.$libraryFull : this.$libraryMini;
         const targetIndex = width < 768 ? 2 : 0;
         
