@@ -12,5 +12,6 @@ const accountsController = new AccountsController();
 const libraryController = new LibraryController();
 const galleryController = new GalleryController();
 
-libraryController.view.adjustGalleryPosition();
+window.dispatchEvent(new Event('resize'));
 generatorController.generateImage();
+
