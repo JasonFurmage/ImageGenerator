@@ -33,6 +33,8 @@
 			
 			@if lightness($base-color) <= 50% {
 				color: $white;
+			} @else {
+				color: $black;
 			}
 		}
 	}
