@@ -4,7 +4,7 @@
 
 .content {
     @include flex($algn: center, $just: center);
-    height: 100svh;
+    min-height: 100svh;
     width: 100%;
 
     @include mq(small) {max-width: $content-width-sm; }
