@@ -26,8 +26,10 @@
 
 			@if (length($colors) > 1) {
 				$hover-color: nth($colors, 2);
-				&:hover {
-					background-color: $hover-color;
+				@media (hover: hover) {
+					&:hover {
+						background-color: $hover-color;
+					}
 				}
 			}
 			

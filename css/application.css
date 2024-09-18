@@ -467,9 +467,11 @@ body {
   color: #fff;
 }
 
-/* line 29, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
-.btn--primary:hover {
-  background-color: #ccc;
+@media (hover: hover) {
+  /* line 30, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+  .btn--primary:hover {
+    background-color: #ccc;
+  }
 }
 
 /* line 23, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
@@ -478,9 +480,11 @@ body {
   color: #000;
 }
 
-/* line 29, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
-.btn--secondary:hover {
-  background-color: #ccc;
+@media (hover: hover) {
+  /* line 30, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+  .btn--secondary:hover {
+    background-color: #ccc;
+  }
 }
 
 /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_container.scss */
