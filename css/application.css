@@ -704,4 +704,25 @@ select {
   }
 }
 
+@media (min-width: 768px) {
+  /* line 11, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_shame.scss */
+  .home {
+    margin-top: -15px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 11, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_shame.scss */
+  .home {
+    margin-top: -30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 11, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_shame.scss */
+  .home {
+    margin-top: -45px;
+  }
+}
+
 /*# sourceMappingURL=application.css.map */
