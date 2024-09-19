@@ -10,10 +10,10 @@ export class AccountsModel {
     addAccount(email) {
 
         if (!this.#isValidEmail(email)) {
-            throw new Error('Please enter a valid email.');
+            throw ('Please enter a valid email.');
         } 
         else if (this.getAccount(email)) {
-            throw new Error('Account already exists.');
+            throw ('Account already exists.');
         }
         else {
             const newAccount = new this.#Account(email);
@@ -40,7 +40,7 @@ export class AccountsModel {
             if (!this.images.includes(image)) {
                 this.images.push(image);
             } else {
-                throw new Error('Image has already been saved.');
+                throw ('Image has already been saved.');
             }
         }
     }
