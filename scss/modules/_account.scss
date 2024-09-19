@@ -5,29 +5,35 @@
 .account {
     width: 100%;
 
+    // Add extra spacing between account section and subtitle text on medium+ screens
     @include mq(medium) {
         margin-top: $spacing-sm;
     }
 
+    // Add styles for select element
     @include e(select) {
         @extend %select-styling;
     }
 
+    // Set new section to flex on medium+ devices to put text field and buttons on same line
     @include e(new) {
         @include mq(medium) {
             @include flex();
         }
     }
     
+    // Add styles for text field
     @include e(textfield) {
         @extend %textfield-styling;
 
+        // Make text field stretch to fill free space on medium+ devices and add right margin for spacing
         @include mq(medium) {
             flex: 1;
             margin-right: $spacing-sm;
         }
     }
 
+    // Make account buttons section take up 50% of width on medium+ devices and reverse order of buttons
     @include e(btns) {
         @include mq(medium) {
             @include flex($dir: row-reverse);
@@ -36,6 +42,7 @@
         }
     }
 
+    // Add spacing at the bottom of select, textfield and buttons.
     @include e(select, textfield, btn) {
         margin-bottom: $spacing-sm;
     }
