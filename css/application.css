@@ -514,7 +514,7 @@ select {
   width: 100%;
 }
 
-@media (max-height: 510px) and (max-width: 767px) {
+@media (max-width: 767px) {
   /* line 5, ../../GitHub/Websites/ImageGenerator/scss/modules/_content.scss */
   .content {
     max-width: 400px;
@@ -551,7 +551,7 @@ select {
   overflow-y: auto;
 }
 
-@media (max-height: 510px) and (max-width: 767px) {
+@media (max-width: 767px) {
   /* line 5, ../../GitHub/Websites/ImageGenerator/scss/modules/_gallery.scss */
   .gallery {
     flex: 1;
@@ -621,7 +621,7 @@ select {
   display: none !important;
 }
 
-@media (max-height: 510px) and (max-width: 767px) {
+@media (max-width: 767px) {
   /* line 9, ../../GitHub/Websites/ImageGenerator/scss/modules/_helper.scss */
   .hidden-sm-down {
     display: none !important;

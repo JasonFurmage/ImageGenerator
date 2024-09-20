@@ -52,7 +52,7 @@
 
 @mixin mq($break) {
 	@if $break == "small" {
-	  @media (max-height: $brkpoint-height-md - 1) and (max-width: $brkpoint-width-md - 1) {
+	  @media (max-width: $brkpoint-width-md - 1) {
 		@content;
 	  }
 	}
