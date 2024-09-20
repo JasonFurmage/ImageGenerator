@@ -23,10 +23,15 @@ $btn-colors: (
     "secondary" : ($white, $grey)
 );
 
-$brkpoint-sm  : 1px;
-$brkpoint-md  : 768px;
-$brkpoint-lg  : 992px;
-$brkpoint-xl  : 1200px;
+$brkpoint-height-sm: 1px;
+$brkpoint-height-md: 511px;
+$brkpoint-height-lg: 586px;
+$brkpoint-height-xl: 661px;
+
+$brkpoint-width-sm  : 1px;
+$brkpoint-width-md  : 768px;
+$brkpoint-width-lg  : 992px;
+$brkpoint-width-xl  : 1200px;
 
 $content-width-sm : 400px;
 $content-width-md : 600px;

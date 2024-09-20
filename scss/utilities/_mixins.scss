@@ -52,22 +52,22 @@
 
 @mixin mq($break) {
 	@if $break == "small" {
-	  @media (max-width: $brkpoint-md - 1) {
+	  @media (max-height: $brkpoint-height-md - 1) and (max-width: $brkpoint-width-md - 1) {
 		@content;
 	  }
 	}
 	@else if $break == "medium" {
-	  @media (min-width: $brkpoint-md) {
+	  @media (min-height: $brkpoint-height-md) and (min-width: $brkpoint-width-md) {
 		@content;
 	  }
 	}
 	@else if $break == "large" {
-	  @media (min-width: $brkpoint-lg) {
+	  @media (min-height: $brkpoint-height-lg) and (min-width: $brkpoint-width-lg) {
 		@content;
 	  }
 	}
 	@else if $break == "x-large" {
-		@media (min-width: $brkpoint-xl) {
+		@media (min-height: $brkpoint-height-xl) and (min-width: $brkpoint-width-xl) {
 		  @content;
 		}
 	}
@@ -75,3 +75,4 @@
 		 @error "Whoops! No value could be retrieved for `#{$break}`. "
 	}
 }
+
