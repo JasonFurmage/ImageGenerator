@@ -2,6 +2,7 @@
 // Icons
 // ==========================================================================
 
+// Icon modifier classes for adding space between an icon and text.
 .icn {
     @include m(left) {
         margin-right: 5px; 

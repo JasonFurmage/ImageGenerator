@@ -3,24 +3,31 @@
 // ==========================================================================
 
 .home {
+    // Set home section to flex wrap so contents wrap to new line when necessary.
     @include flex($wrap: wrap);
     width: 100%;
+
+    // Add top and bottom margin to keep contents away from screen edges.
     margin-top: $spacing-sm;
     margin-bottom: $spacing-lg;
 
+    // Force display to flex on medium+ screens so it will be visible if previously hidden.
     @include mq(medium) {
         display: flex!important;
     }
 
+    // Center heading.
     @include e(heading) {
         width: 100%;
         text-align: center;
     }
 
+    // Remove space above title text to improve centering.
     @include e(title) {
         margin-top: 0;
     }
 
+    // Add margin top for spacing between home button and generator.
     @include e(btn) {
         margin-top: $spacing-lg;
     }

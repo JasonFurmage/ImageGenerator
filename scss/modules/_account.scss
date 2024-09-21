@@ -15,7 +15,7 @@
         @extend %select-styling;
     }
 
-    // Set new section to flex on medium+ devices to put text field and buttons on same line.
+    // Set new section to flex on medium+ screens to put text field and buttons on same line.
     @include e(new) {
         @include mq(medium) {
             @include flex();
@@ -26,7 +26,7 @@
     @include e(textfield) {
         @extend %textfield-styling;
 
-        // Make text field stretch to fill free space on medium+ devices and add right margin for spacing.
+        // Make text field stretch to fill free space on medium+ screens and add right margin for spacing.
         @include mq(medium) {
             flex: 1;
             margin-right: $spacing-sm;

@@ -2,6 +2,7 @@
 // Buttons
 // ==========================================================================
 
+// Add styles for buttons and modifier classes.
 .btn {
     @include bg-colors($btn-colors);
     width: 100%;

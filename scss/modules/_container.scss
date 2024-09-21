@@ -2,6 +2,7 @@
 // Container
 // ==========================================================================
 
+// Center content and add left and right padding.
 .container {
     @include flex($just: center);
     padding-left: $spacing-sm;
