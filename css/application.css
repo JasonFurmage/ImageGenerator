@@ -1,12 +1,12 @@
 @import url("http://fonts.googleapis.com/css?family=Raleway");
-/* line 5, ../../GitHub/Websites/ImageGenerator/scss/utilities/_placeholders.scss */
+/* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_placeholders.scss */
 .account__select, .account__textfield {
   width: 100%;
   padding: 16px 8px;
   border: 1px solid #ccc;
 }
 
-/* line 11, ../../GitHub/Websites/ImageGenerator/scss/utilities/_placeholders.scss */
+/* line 11, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_placeholders.scss */
 .gallery__placeholder {
   position: absolute;
   top: 50%;
@@ -21,7 +21,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-/* line 11, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 11, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 html {
   line-height: 1.15;
   /* 1 */
@@ -34,7 +34,7 @@ html {
 /**
  * Remove the margin in all browsers.
  */
-/* line 23, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 23, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 body {
   margin: 0;
 }
@@ -42,7 +42,7 @@ body {
 /**
  * Render the `main` element consistently in IE.
  */
-/* line 31, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 31, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 main {
   display: block;
 }
@@ -51,7 +51,7 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-/* line 40, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 40, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -63,7 +63,7 @@ h1 {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 53, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 53, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -77,7 +77,7 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 64, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 64, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -90,7 +90,7 @@ pre {
 /**
  * Remove the gray background on active links in IE 10.
  */
-/* line 76, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 76, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 a {
   background-color: transparent;
 }
@@ -99,7 +99,7 @@ a {
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 85, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 85, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -112,7 +112,7 @@ abbr[title] {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* line 95, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 95, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 b,
 strong {
   font-weight: bolder;
@@ -122,7 +122,7 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 105, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 105, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 code,
 kbd,
 samp {
@@ -135,7 +135,7 @@ samp {
 /**
  * Add the correct font size in all browsers.
  */
-/* line 116, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 116, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 small {
   font-size: 80%;
 }
@@ -144,7 +144,7 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-/* line 125, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 125, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -153,12 +153,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 133, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 133, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 137, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 137, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 sup {
   top: -0.5em;
 }
@@ -168,7 +168,7 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
-/* line 148, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 148, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 img {
   border-style: none;
 }
@@ -179,7 +179,7 @@ img {
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
-/* line 160, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 160, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 button,
 input,
 optgroup,
@@ -199,7 +199,7 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-/* line 176, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 176, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 button,
 input {
   /* 1 */
@@ -210,7 +210,7 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-/* line 186, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 186, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 button,
 select {
   /* 1 */
@@ -220,7 +220,7 @@ select {
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-/* line 195, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 195, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 button,
 [type="button"],
 [type="reset"],
@@ -231,7 +231,7 @@ button,
 /**
  * Remove the inner border and padding in Firefox.
  */
-/* line 206, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 206, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -243,7 +243,7 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-/* line 218, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 218, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -254,7 +254,7 @@ button:-moz-focusring,
 /**
  * Correct the padding in Firefox.
  */
-/* line 229, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 229, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
@@ -265,7 +265,7 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-/* line 240, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 240, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -284,7 +284,7 @@ legend {
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-/* line 253, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 253, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 progress {
   vertical-align: baseline;
 }
@@ -292,7 +292,7 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
-/* line 261, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 261, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 textarea {
   overflow: auto;
 }
@@ -301,7 +301,7 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-/* line 270, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 270, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -313,7 +313,7 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-/* line 280, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 280, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -323,7 +323,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-/* line 290, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 290, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -334,7 +334,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-/* line 299, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 299, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -343,7 +343,7 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-/* line 308, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 308, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -356,7 +356,7 @@ textarea {
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
-/* line 320, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 320, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 details {
   display: block;
 }
@@ -364,7 +364,7 @@ details {
 /*
  * Add the correct display in all browsers.
  */
-/* line 328, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 328, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 summary {
   display: list-item;
 }
@@ -374,7 +374,7 @@ summary {
 /**
  * Add the correct display in IE 10+.
  */
-/* line 339, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 339, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 template {
   display: none;
 }
@@ -382,17 +382,17 @@ template {
 /**
  * Add the correct display in IE 10.
  */
-/* line 347, ../../GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
+/* line 347, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_normalize.scss */
 [hidden] {
   display: none;
 }
 
-/* line 6, ../../GitHub/Websites/ImageGenerator/scss/base/_base.scss */
+/* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_base.scss */
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
-/* line 11, ../../GitHub/Websites/ImageGenerator/scss/base/_base.scss */
+/* line 9, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_base.scss */
 body {
   font-size: 15px;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -401,7 +401,7 @@ body {
   color: #000;
 }
 
-/* line 20, ../../GitHub/Websites/ImageGenerator/scss/base/_base.scss */
+/* line 17, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/base/_base.scss */
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -411,27 +411,27 @@ select {
   color: #000;
 }
 
-/* line 5, ../../GitHub/Websites/ImageGenerator/scss/modules/_account.scss */
+/* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_account.scss */
 .account {
   width: 100%;
 }
 
 @media (min-height: 511px) and (min-width: 768px) {
-  /* line 5, ../../GitHub/Websites/ImageGenerator/scss/modules/_account.scss */
+  /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_account.scss */
   .account {
     margin-top: 15px;
   }
 }
 
 @media (min-height: 511px) and (min-width: 768px) {
-  /* line 7, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+  /* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
   .account__new {
     display: flex;
   }
 }
 
 @media (min-height: 511px) and (min-width: 768px) {
-  /* line 7, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+  /* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
   .account__textfield {
     flex: 1;
     margin-right: 15px;
@@ -439,7 +439,7 @@ select {
 }
 
 @media (min-height: 511px) and (min-width: 768px) {
-  /* line 7, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+  /* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
   .account__btns {
     display: flex;
     flex-direction: row-reverse;
@@ -448,22 +448,22 @@ select {
   }
 }
 
-/* line 7, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .account__select {
   margin-bottom: 15px;
 }
 
-/* line 7, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .account__textfield {
   margin-bottom: 15px;
 }
 
-/* line 7, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .account__btn {
   margin-bottom: 15px;
 }
 
-/* line 6, ../../GitHub/Websites/ImageGenerator/scss/modules/_buttons.scss */
+/* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_buttons.scss */
 .btn {
   width: 100%;
   padding: 12px 24px;
@@ -471,33 +471,33 @@ select {
   cursor: pointer;
 }
 
-/* line 23, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+/* line 23, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .btn--primary {
   background-color: #000;
   color: #fff;
 }
 
 @media (hover: hover) {
-  /* line 30, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+  /* line 30, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
   .btn--primary:hover {
     background-color: #ccc;
   }
 }
 
-/* line 23, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+/* line 23, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .btn--secondary {
   background-color: #fff;
   color: #000;
 }
 
 @media (hover: hover) {
-  /* line 30, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+  /* line 30, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
   .btn--secondary:hover {
     background-color: #ccc;
   }
 }
 
-/* line 6, ../../GitHub/Websites/ImageGenerator/scss/modules/_container.scss */
+/* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_container.scss */
 .container {
   display: flex;
   justify-content: center;
@@ -505,7 +505,7 @@ select {
   padding-right: 15px;
 }
 
-/* line 6, ../../GitHub/Websites/ImageGenerator/scss/modules/_content.scss */
+/* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_content.scss */
 .content {
   display: flex;
   justify-content: center;
@@ -515,34 +515,34 @@ select {
 }
 
 @media (max-height: 510px), (max-width: 767px) {
-  /* line 6, ../../GitHub/Websites/ImageGenerator/scss/modules/_content.scss */
+  /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_content.scss */
   .content {
     max-width: 400px;
   }
 }
 
 @media (min-height: 511px) and (min-width: 768px) {
-  /* line 6, ../../GitHub/Websites/ImageGenerator/scss/modules/_content.scss */
+  /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_content.scss */
   .content {
     max-width: 600px;
   }
 }
 
 @media (min-height: 586px) and (min-width: 992px) {
-  /* line 6, ../../GitHub/Websites/ImageGenerator/scss/modules/_content.scss */
+  /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_content.scss */
   .content {
     max-width: 800px;
   }
 }
 
 @media (min-height: 661px) and (min-width: 1200px) {
-  /* line 6, ../../GitHub/Websites/ImageGenerator/scss/modules/_content.scss */
+  /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_content.scss */
   .content {
     max-width: 1000px;
   }
 }
 
-/* line 5, ../../GitHub/Websites/ImageGenerator/scss/modules/_gallery.scss */
+/* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_gallery.scss */
 .gallery {
   position: relative;
   background-color: #fff;
@@ -552,7 +552,7 @@ select {
 }
 
 @media (max-height: 510px), (max-width: 767px) {
-  /* line 5, ../../GitHub/Websites/ImageGenerator/scss/modules/_gallery.scss */
+  /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_gallery.scss */
   .gallery {
     flex: 1;
     width: 100%;
@@ -560,7 +560,7 @@ select {
 }
 
 @media (min-height: 511px) and (min-width: 768px) {
-  /* line 5, ../../GitHub/Websites/ImageGenerator/scss/modules/_gallery.scss */
+  /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_gallery.scss */
   .gallery {
     position: absolute;
     top: 0;
@@ -571,38 +571,38 @@ select {
   }
 }
 
-/* line 7, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .gallery__window {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
 
-/* line 7, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .gallery__item {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
 }
 
-/* line 7, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .gallery__placeholder {
   color: #757575;
 }
 
 @media (min-height: 511px) and (min-width: 768px) {
-  /* line 5, ../../GitHub/Websites/ImageGenerator/scss/modules/_generator.scss */
+  /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_generator.scss */
   .generator {
     width: 50%;
   }
 }
 
-/* line 7, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .generator__window {
   margin-bottom: 15px;
 }
 
-/* line 7, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .generator__image {
   display: block;
   width: 100%;
@@ -610,32 +610,32 @@ select {
   border: 1px solid #000;
 }
 
-/* line 7, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .generator__btns {
   display: flex;
   flex-direction: row;
 }
 
-/* line 6, ../../GitHub/Websites/ImageGenerator/scss/modules/_helper.scss */
+/* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_helper.scss */
 .hidden {
   display: none !important;
 }
 
 @media (max-height: 510px), (max-width: 767px) {
-  /* line 11, ../../GitHub/Websites/ImageGenerator/scss/modules/_helper.scss */
+  /* line 9, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_helper.scss */
   .hidden-sm-down {
     display: none !important;
   }
 }
 
 @media (min-height: 511px) and (min-width: 768px) {
-  /* line 18, ../../GitHub/Websites/ImageGenerator/scss/modules/_helper.scss */
+  /* line 15, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_helper.scss */
   .hidden-md-up {
     display: none !important;
   }
 }
 
-/* line 5, ../../GitHub/Websites/ImageGenerator/scss/modules/_home.scss */
+/* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_home.scss */
 .home {
   display: flex;
   flex-wrap: wrap;
@@ -645,39 +645,39 @@ select {
 }
 
 @media (min-height: 511px) and (min-width: 768px) {
-  /* line 5, ../../GitHub/Websites/ImageGenerator/scss/modules/_home.scss */
+  /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_home.scss */
   .home {
     display: flex !important;
   }
 }
 
-/* line 7, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .home__heading {
   width: 100%;
   text-align: center;
 }
 
-/* line 7, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .home__title {
   margin-top: 0;
 }
 
-/* line 7, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .home__btn {
   margin-top: 30px;
 }
 
-/* line 15, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+/* line 15, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .icn--left {
   margin-right: 5px;
 }
 
-/* line 15, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+/* line 15, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .icn--right {
   margin-left: 5px;
 }
 
-/* line 15, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+/* line 15, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .library--full {
   display: flex;
   flex-direction: column;
@@ -686,13 +686,13 @@ select {
   width: 100%;
 }
 
-/* line 15, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+/* line 15, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .library--mini {
   position: relative;
   width: 50%;
 }
 
-/* line 7, ../../GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
+/* line 7, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/utilities/_mixins.scss */
 .library__btn {
   width: auto;
   margin-top: 30px;
@@ -700,7 +700,7 @@ select {
 }
 
 @media (min-height: 511px) and (min-width: 768px) {
-  /* line 5, ../../GitHub/Websites/ImageGenerator/scss/modules/_shame.scss */
+  /* line 5, ../../../../../Users/jason/Documents/GitHub/Websites/ImageGenerator/scss/modules/_shame.scss */
   .account, .account__new {
     height: 66.25px;
   }

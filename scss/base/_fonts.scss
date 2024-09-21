@@ -2,7 +2,6 @@
 // Fonts
 // ==========================================================================
 
-// Import fonts from url defined in config.
 @if variable-exists(font-url) {
     @import url($font-url);
 }

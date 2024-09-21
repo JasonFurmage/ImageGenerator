@@ -2,13 +2,11 @@
 // Content
 // ==========================================================================
 
-// Center content and fill viewport height.
 .content {
     @include flex($algn: center, $just: center); 
     min-height: 100svh;
     width: 100%;
 
-    // Set max width according to screen size.
     @include mq(small) {max-width: $content-width-sm; }
     @include mq(medium) { max-width: $content-width-md; }
     @include mq(large) { max-width: $content-width-lg; }

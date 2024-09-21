@@ -2,19 +2,16 @@
 // Helper
 // ==========================================================================
 
-// Hide element.
 .hidden {
     display: none!important;
 }
 
-// Hide on small- screens.
 .hidden-sm-down {
     @include mq(small) {
         display: none!important;
     }
 }
 
-// Hide on medium+ screens.
 .hidden-md-up {
     @include mq(medium) {
         display: none!important;

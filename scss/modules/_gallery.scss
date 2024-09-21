@@ -3,40 +3,34 @@
 // ==========================================================================
 
 .gallery {
-    // Add styles for gallery section and enable scrolling.
     position: relative;
     background-color: $white;
     border: 1px solid $grey;
     padding: 20px;
     overflow-y: auto;
 
-    // Make gallery section stretch to fill available space on small screens.
     @include mq(small) {
         flex: 1;
         width: 100%;
     }
 
-    // Make gallery section fill its container using absolute fill on medium+ screens.
     @include mq(medium) {
         @include absolute-fill;
         margin-right: $spacing-sm;
     }
 
-    // Set window section to grid with 3 items per row.
     @include e(window) {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
     }
 
-    // Make gallery items square by setting aspect-ratio to 1/1.
     @include e(item) {
         width: 100%;
         aspect-ratio: 1 / 1;
         object-fit: cover;
     }
 
-    // Center placeholder in gallery section using absolute center.
     @include e(placeholder) {
         @extend %absolute-center;
         color: $dark-grey;

@@ -3,21 +3,17 @@
 // ==========================================================================
 
 .library {
-
-    // Make full library fill container and center contents
     @include m(full) {
         @include flex($dir: column, $algn: center);
         height: 100%;
         width: 100%;
     }
 
-    // Make mini library take up 50% of width of container.
     @include m(mini) {
-        position: relative; // For when gallery is set to absolute fill.
+        position: relative;
         width: 50%;
     }
 
-    // Center library button and add spacing above and below.
     @include e(btn) {
         width: auto;
         margin-top: $spacing-lg;
