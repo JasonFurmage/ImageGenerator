@@ -2,10 +2,12 @@
 // Base
 // ==========================================================================
 
+// Include padding and border in size calculations.
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
+// Set default body styles for text and background.
 body {
     font-size: $font-size;
     font-family: $font-family;
@@ -14,6 +16,7 @@ body {
     color: $black;
 }
 
+// Override default browser select style for consistency across browsers.
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
