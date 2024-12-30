@@ -5,6 +5,7 @@
 .account {
     width: 100%;
 
+    // Add space between select and subtitle text on md+ screens.
     @include mq(medium) {
         margin-top: $spacing-sm;
     }
@@ -13,6 +14,7 @@
         @extend %select-styling;
     }
 
+    // Put text field and btns on same line on md+ screens.
     @include e(new) {
         @include mq(medium) {
             @include flex();
@@ -22,12 +24,14 @@
     @include e(textfield) {
         @extend %textfield-styling;
 
+        // Make text field fill available space on md+ screens.
         @include mq(medium) {
             flex: 1;
             margin-right: $spacing-sm;
         }
     }
 
+    // Make btns take up 50% of space and reverse order on md+ screens.
     @include e(btns) {
         @include mq(medium) {
             @include flex($dir: row-reverse);
@@ -36,6 +40,7 @@
         }
     }
 
+    // Add spacing below account elements.
     @include e(select, textfield, btn) {
         margin-bottom: $spacing-sm;
     }
