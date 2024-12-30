@@ -479,7 +479,7 @@ template {
   box-sizing: border-box;
 }
 
-/* line 11, ../../GitHub/Websites/ImageGenerator/scss/base/_base.scss */
+/* line 10, ../../GitHub/Websites/ImageGenerator/scss/base/_base.scss */
 body {
   font-size: 15px;
   font-family: "Raleway", sans-serif;
@@ -488,7 +488,7 @@ body {
   color: #000;
 }
 
-/* line 20, ../../GitHub/Websites/ImageGenerator/scss/base/_base.scss */
+/* line 19, ../../GitHub/Websites/ImageGenerator/scss/base/_base.scss */
 select {
   -webkit-appearance: none;
   -moz-appearance: none;

@@ -2,12 +2,11 @@
 // base/base.scss
 // ==========================================================================
 
-// Include padding and border in size calculations.
+// Include padding and border in element's width and height.
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
-// Set default body styles for text and background.
 body {
     font-size: $font-size;
     font-family: $font-family;
