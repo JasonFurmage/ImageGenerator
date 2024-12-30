@@ -2,7 +2,7 @@
 // base/typography.scss
 // ==========================================================================
 
-// Import font defined in config if it exists.
+// Import font.
 @if variable-exists(font-url) {
     @import url($font-url);
 }
