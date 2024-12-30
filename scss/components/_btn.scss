@@ -3,7 +3,7 @@
 // ==========================================================================
 
 .btn {
-    @include bg-colors($color-map--btns);
+    @include bg-colors($color-map--btns); // Add bg and bg hover colors.
     width: 100%;
     padding: 12px 24px;
     border: none;
