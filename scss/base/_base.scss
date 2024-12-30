@@ -20,6 +20,7 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  border-radius: 0;
   
   background: $color--white url('/assets/img/chevron.svg') no-repeat right 10px center;
   background-size: 12px;
