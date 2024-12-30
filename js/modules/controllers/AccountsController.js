@@ -1,5 +1,5 @@
 // ==========================================================================
-// Accounts Controller
+// controllers/AccountsController.js
 // ==========================================================================
 
 import { AccountsModel } from "../models/AccountsModel.js";

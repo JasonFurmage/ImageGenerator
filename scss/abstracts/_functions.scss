@@ -1,13 +1,7 @@
 // ==========================================================================
-// Icons
+// abstracts/functions.scss
 // ==========================================================================
 
-.icn {
-    @include m(left) {
-        margin-right: 5px; 
-    }
-
-    @include m(right) {
-        margin-left: 5px;   
-    }
+@function em($target, $context: $font-size) {
+	@return ($target / $context) * 1em;
 }

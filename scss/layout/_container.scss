@@ -1,7 +1,9 @@
 // ==========================================================================
-// Functions
+// layout/container.scss
 // ==========================================================================
 
-@function em($target, $context: $font-size) {
-	@return ($target / $context) * 1em;
+.container {
+    @include flex($just: center);
+    padding-left: $spacing-sm;
+    padding-right: $spacing-sm;
 }

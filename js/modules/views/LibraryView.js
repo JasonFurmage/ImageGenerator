@@ -1,5 +1,5 @@
 // ==========================================================================
-// Library View
+// views/LibraryView.js
 // ==========================================================================
 
 import { toggleVisibility, insertElementAtIndex } from "../helpers/Helper.js";

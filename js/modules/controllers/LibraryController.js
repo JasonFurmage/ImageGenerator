@@ -1,5 +1,5 @@
 // ==========================================================================
-// Library Controller
+// controllers/LibraryController.js
 // ==========================================================================
 
 import { LibraryView } from "../views/LibraryView.js";

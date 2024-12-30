@@ -1,5 +1,5 @@
 // ==========================================================================
-// Generator Controller
+// controllers/GeneratorController.js
 // ==========================================================================
 
 import { GeneratorModel } from "../models/GeneratorModel.js";
@@ -12,6 +12,7 @@ export class GeneratorController {
         this.view = new GeneratorView();
 
         this.#setupEventListeners();
+        this.generateImage();
     }
 
     #setupEventListeners() {

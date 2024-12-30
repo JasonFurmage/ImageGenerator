@@ -1,6 +1,7 @@
 // ==========================================================================
-// base/index.scss
+// vendors/index.scss
 // ==========================================================================
 
-@import 'typography';
-@import 'base';
+@import 'normalize/normalize';
+@import 'notifi/notifi';
+@import 'notifi/custom';

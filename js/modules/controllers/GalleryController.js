@@ -1,5 +1,5 @@
 // ==========================================================================
-// Gallery Controller
+// controllers/GalleryController.js
 // ==========================================================================
 
 import { GalleryView } from "../views/GalleryView.js";

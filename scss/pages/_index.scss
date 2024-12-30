@@ -1,9 +1,5 @@
 // ==========================================================================
-// Container
+// pages/index.scss
 // ==========================================================================
 
-.container {
-    @include flex($just: center);
-    padding-left: $spacing-sm;
-    padding-right: $spacing-sm;
-}
+@import 'home/index';

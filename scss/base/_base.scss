@@ -1,5 +1,5 @@
 // ==========================================================================
-// Base
+// base/base.scss
 // ==========================================================================
 
 // Include padding and border in size calculations.
@@ -22,7 +22,7 @@ select {
   -moz-appearance: none;
   appearance: none;
   
-  background: white url('/img/chevron.svg') no-repeat right 10px center;
+  background: white url('/assets/img/chevron.svg') no-repeat right 10px center;
   background-size: 12px;
   color: $black;
 }
