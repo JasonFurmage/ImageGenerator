@@ -2,6 +2,7 @@
 // layout/container.scss
 // ==========================================================================
 
+// Center contents and add padding to keep away from edges.
 .container {
     @include flex($just: center);
     padding-left: 15px;
