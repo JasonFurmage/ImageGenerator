@@ -3,7 +3,7 @@
 // ==========================================================================
 
 .generator {
-    // Make room for gallery on md+ screens.
+    // Make room for mini library on md+ screens.
     @include mq(medium) {
         width: 50%;
     }
