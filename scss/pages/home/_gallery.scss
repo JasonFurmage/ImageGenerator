@@ -7,30 +7,35 @@
     background-color: $color--white;
     border: 1px solid $color--grey;
     padding: 20px;
-    overflow-y: auto;
+    overflow-y: auto; // Allow scrolling.
 
+    // Make gallery fill viewport height (full library).
     @include mq(small) {
         flex: 1;
         width: 100%;
     }
 
+    // Fix gallery to same height as generator (mini library).
     @include mq(medium) {
         @include inset-fill(absolute);
         margin-right: $spacing-sm;
     }
 
+    // Set up grid to show 3 items per row.
     @include e(window) {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
     }
 
+    // Make items square and keep aspect ratio.
     @include e(item) {
         width: 100%;
         aspect-ratio: 1 / 1;
         object-fit: cover;
     }
 
+    // Position placeholder text in center of gallery window.
     @include e(placeholder) {
         @extend %absolute-center;
         color: $color--grey-dark;
