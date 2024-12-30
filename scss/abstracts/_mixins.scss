@@ -42,7 +42,7 @@
 			$base-color: nth($colors, 1);
 			background-color: $base-color;
 
-			// Add background color for hover state if applicable.
+			// Add background color for hover if hover color exists.
 			@if (length($colors) > 1) {
 				$hover-color: nth($colors, 2);
 				@media (hover: hover) {
