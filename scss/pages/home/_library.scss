@@ -5,15 +5,17 @@
 .library {
     @include m(full) {
         @include flex($dir: column, $algn: center);
-        height: 100svh;
+        height: 100svh; // Fill viewport height.
         width: 100%;
     }
 
+    // Make room for generator.
     @include m(mini) {
         position: relative;
         width: 50%;
     }
 
+    // Set auto width and add space above and below back button.
     @include e(btn) {
         width: auto;
         margin: $spacing-lg 0;
