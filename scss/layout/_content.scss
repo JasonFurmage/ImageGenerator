@@ -7,8 +7,8 @@
     min-height: 100svh;
     width: 100%;
 
-    @include mq(small) {max-width: $content-width-sm; }
-    @include mq(medium) { max-width: $content-width-md; }
-    @include mq(large) { max-width: $content-width-lg; }
-    @include mq(x-large) { max-width: $content-width-xl; }
+    @include mq(small) {max-width: $content-width--sm; }
+    @include mq(medium) { max-width: $content-width--md; }
+    @include mq(large) { max-width: $content-width--lg; }
+    @include mq(x-large) { max-width: $content-width--xl; }
 }

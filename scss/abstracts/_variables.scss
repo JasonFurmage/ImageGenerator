@@ -2,38 +2,46 @@
 // abstracts/variables.scss
 // ==========================================================================
 
-$font-url       : 'http://fonts.googleapis.com/css?family=Raleway';
-$font-family    : 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+// Font Family
+$font-url       : 'http://fonts.googleapis.com/css2?family=Raleway';
+$font-family    : 'Raleway', sans-serif;
 
-$font-size      : 15px;
-$line           : 22.5px;
-$letter-space   : 1px;
+// Base typography styles for body.
+$font-size          : 15px;
+$line-height        : 22.5px;
+$letter-spacing     : 1px;
 
-$spacing-sm   : 15px;
-$spacing-lg   : 30px;
+// Height break points for media queries.
+$brkpoint-height--sm    : 1px;
+$brkpoint-height--md    : 511px;
+$brkpoint-height--lg    : 586px;
+$brkpoint-height--xl    : 661px;
 
-$black          :   #000;
-$white          :   #fff;
-$grey           :   #ccc;
-$light-grey     :   #f1f1f1;
-$dark-grey      :   #757575;
+// Width break points for media queries.
+$brkpoint-width--sm     : 1px;
+$brkpoint-width--md     : 768px;
+$brkpoint-width--lg     : 992px;
+$brkpoint-width--xl     : 1200px;
 
-$btn-colors: (
-    "primary" : ($black, $grey),
-    "secondary" : ($white, $grey)
+// Content widths for each break point.
+$content-width--sm      : 400px;
+$content-width--md      : 600px;
+$content-width--lg      : 800px;
+$content-width--xl      : 1000px;
+
+// Colors
+$color--black           :   #000;
+$color--white           :   #fff;
+$color--grey            :   #ccc;
+$color--grey-light      :   #f1f1f1;
+$color--grey-dark       :   #757575;
+
+// Color Maps
+$color-map--btns: (
+    "primary"   : (#000, #ccc),
+    "secondary" : (#fff, #ccc)
 );
 
-$brkpoint-height-sm: 1px;
-$brkpoint-height-md: 511px;
-$brkpoint-height-lg: 586px;
-$brkpoint-height-xl: 661px;
-
-$brkpoint-width-sm  : 1px;
-$brkpoint-width-md  : 768px;
-$brkpoint-width-lg  : 992px;
-$brkpoint-width-xl  : 1200px;
-
-$content-width-sm : 400px;
-$content-width-md : 600px;
-$content-width-lg : 800px;
-$content-width-xl : 1000px;
+// Spacing for elements.
+$spacing-sm   : 15px;
+$spacing-lg   : 30px;

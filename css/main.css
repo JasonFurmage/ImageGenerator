@@ -5,7 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("http://fonts.googleapis.com/css?family=Raleway");
+@import url("http://fonts.googleapis.com/css2?family=Raleway");
 /* line 11, ../../GitHub/Websites/ImageGenerator/scss/vendors/normalize/normalize.css */
 html {
   line-height: 1.15;
@@ -482,7 +482,7 @@ template {
 /* line 11, ../../GitHub/Websites/ImageGenerator/scss/base/_base.scss */
 body {
   font-size: 15px;
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 1.5;
   background-color: #f1f1f1;
   color: #000;

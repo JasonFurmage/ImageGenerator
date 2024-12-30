@@ -34,9 +34,9 @@
 			}
 			
 			@if lightness($base-color) <= 50% {
-				color: $white;
+				color: $color--white;
 			} @else {
-				color: $black;
+				color: $color--black;
 			}
 		}
 	}
@@ -52,22 +52,22 @@
 
 @mixin mq($break) {
 	@if $break == "small" {
-	  @media (max-height: $brkpoint-height-md - 1) , (max-width: $brkpoint-width-md - 1) {
+	  @media (max-height: ($brkpoint-height--md - 1)) , (max-width: ($brkpoint-width--md - 1)) {
 		@content;
 	  }
 	}
 	@else if $break == "medium" {
-	  @media (min-height: $brkpoint-height-md) and (min-width: $brkpoint-width-md) {
+	  @media (min-height: $brkpoint-height--md) and (min-width: $brkpoint-width--md) {
 		@content;
 	  }
 	}
 	@else if $break == "large" {
-	  @media (min-height: $brkpoint-height-lg) and (min-width: $brkpoint-width-lg) {
+	  @media (min-height: $brkpoint-height--lg) and (min-width: $brkpoint-width--lg) {
 		@content;
 	  }
 	}
 	@else if $break == "x-large" {
-		@media (min-height: $brkpoint-height-xl) and (min-width: $brkpoint-width-xl) {
+		@media (min-height: $brkpoint-height--xl) and (min-width: $brkpoint-width--xl) {
 		  @content;
 		}
 	}

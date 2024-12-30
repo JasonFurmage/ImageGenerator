@@ -3,7 +3,7 @@
 // ==========================================================================
 
 .btn {
-    @include bg-colors($btn-colors);
+    @include bg-colors($color-map--btns);
     width: 100%;
     padding: 12px 24px;
     border: none;

@@ -4,8 +4,8 @@
 
 .gallery {
     position: relative;
-    background-color: $white;
-    border: 1px solid $grey;
+    background-color: $color--white;
+    border: 1px solid $color--grey;
     padding: 20px;
     overflow-y: auto;
 
@@ -33,6 +33,6 @@
 
     @include e(placeholder) {
         @extend %absolute-center;
-        color: $dark-grey;
+        color: $color--grey-dark;
     }
 }
