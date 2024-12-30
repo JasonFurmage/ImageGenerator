@@ -2,6 +2,12 @@
 // abstracts/placeholders.scss
 // ==========================================================================
 
+// Padding for gutter and to keep content away from edges.
+%padding-horizontal {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 // Styling for select and text field elements.
 %select-styling, %textfield-styling {
     width: 100%;

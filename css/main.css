@@ -460,13 +460,19 @@ template {
 }
 
 /* line 6, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_placeholders.scss */
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 12, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_placeholders.scss */
 .account__select, .account__textfield {
   width: 100%;
   padding: 16px 8px;
   border: 1px solid #ccc;
 }
 
-/* line 13, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_placeholders.scss */
+/* line 19, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_placeholders.scss */
 .gallery__placeholder {
   position: absolute;
   top: 50%;
@@ -546,8 +552,6 @@ select {
 .container {
   display: flex;
   justify-content: center;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 /* line 5, ../../GitHub/Websites/ImageGenerator/scss/layout/_content.scss */
