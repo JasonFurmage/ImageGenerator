@@ -3,14 +3,16 @@
 // ==========================================================================
 
 .home {
-    @include flex($wrap: wrap);
+    @include flex($wrap: wrap); // Make home elements wrap to new line when necessary.
     width: 100%;
     margin: $spacing-sm 0 $spacing-lg;
 
+    // Replace full library with home on md+ screens.
     @include mq(medium) {
         display: flex!important;
     }
 
+    // Center heading.
     @include e(heading) {
         width: 100%;
         text-align: center;
@@ -20,6 +22,7 @@
         margin-top: 0;
     }
 
+    // Add space between generator and saved images btn.
     @include e(btn) {
         margin-top: $spacing-lg;
     }
