@@ -2,15 +2,18 @@
  * notifi/custom.css
  */
 
+ /* Make notifi bar stretch across entire page. */
 .custom-class {
 	border-radius: 0!important;
 	margin: 0!important;
 }
 
-.custom-class-error {
+ /* Set background color for errors. */
+.custom-class--error {
 	background-color: #ff6961;
 }
 
-.custom-class-warning {
+ /* Set background color for warnings. */
+.custom-class--warning {
 	background-color: #4A90E2;
 }

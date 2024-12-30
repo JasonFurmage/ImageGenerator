@@ -443,19 +443,22 @@ template {
 /**
  * notifi/custom.css
  */
-/* line 5, ../../GitHub/Websites/ImageGenerator/scss/vendors/notifi/custom.css */
+/* Make notifi bar stretch across entire page. */
+/* line 6, ../../GitHub/Websites/ImageGenerator/scss/vendors/notifi/custom.css */
 .custom-class {
   border-radius: 0 !important;
   margin: 0 !important;
 }
 
-/* line 10, ../../GitHub/Websites/ImageGenerator/scss/vendors/notifi/custom.css */
-.custom-class-error {
+/* Set background color for errors. */
+/* line 12, ../../GitHub/Websites/ImageGenerator/scss/vendors/notifi/custom.css */
+.custom-class--error {
   background-color: #ff6961;
 }
 
-/* line 14, ../../GitHub/Websites/ImageGenerator/scss/vendors/notifi/custom.css */
-.custom-class-warning {
+/* Set background color for warnings. */
+/* line 17, ../../GitHub/Websites/ImageGenerator/scss/vendors/notifi/custom.css */
+.custom-class--warning {
   background-color: #4A90E2;
 }
 

@@ -35,7 +35,7 @@ export class GeneratorController {
     
         } catch (error) {
             console.log(error);
-            $.notifi('There was an error fetching the image.', {noticeClass: 'custom-class custom-class-error'});
+            $.notifi('There was an error fetching the image.', {noticeClass: 'custom-class custom-class--error'});
         }
     }
 }

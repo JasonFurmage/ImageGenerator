@@ -47,7 +47,7 @@ export class AccountsController {
             this.model.addAccount(email);  
             this.view.addSelectOption(email); 
         } catch (error) {
-            $.notifi(error, {noticeClass: 'custom-class custom-class-warning'});
+            $.notifi(error, {noticeClass: 'custom-class custom-class--warning'});
         }
     }
 
@@ -66,7 +66,7 @@ export class AccountsController {
             const image = event.detail;
             this.#saveImage(image);
         } else {
-            $.notifi('Please select an account.', {noticeClass: 'custom-class custom-class-warning'});
+            $.notifi('Please select an account.', {noticeClass: 'custom-class custom-class--warning'});
         }
     }
 
@@ -86,7 +86,7 @@ export class AccountsController {
             dispatchCustomEvent(document, 'add-image', image);
             dispatchCustomEvent(document, 'image-count-change', this.selectedAccount.images.length);
         } catch (error) {
-            $.notifi(error, {noticeClass: 'custom-class custom-class-warning'});
+            $.notifi(error, {noticeClass: 'custom-class custom-class--warning'});
         }
     }
 }
