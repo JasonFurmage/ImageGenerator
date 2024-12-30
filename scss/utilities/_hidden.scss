@@ -2,16 +2,19 @@
 // utilities/helper.scss
 // ==========================================================================
 
+// Hide element.
 .hidden {
     display: none;
 }
 
+// Hide element on sm- screens.
 .hidden-sm-down {
     @include mq(small) {
         display: none;
     }
 }
 
+// Hide element on md+ screens.
 .hidden-md-up {
     @include mq(medium) {
         display: none;
