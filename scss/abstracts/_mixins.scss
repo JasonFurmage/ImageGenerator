@@ -2,6 +2,7 @@
 // abstracts/mixins.scss
 // ==========================================================================
 
+// Add element class.
 @mixin e($elements...) {
   @each $element in $elements {
     &__#{$element} {
@@ -10,6 +11,7 @@
   }
 }
 
+// Add modifier class.
 @mixin m($modifiers...) {
   @each $modifier in $modifiers {
     &--#{$modifier} {
@@ -18,12 +20,29 @@
   }
 }
 
+// Common flexbox proprties.
+@mixin flex($disp: flex, $dir: null, $wrap: null, $just: null, $algn: null) {
+	display: $disp;
+	flex-direction: $dir;
+	flex-wrap: $wrap;
+	justify-content: $just;
+	align-items: $algn;
+}
+
+// Set position and fill inset.
+@mixin inset-fill($pos) {
+    position: #{$pos};
+    inset: 0;
+}
+
+// Add background color modifier classes from color maps.
 @mixin bg-colors($map) {
 	@each $theme, $colors in $map {
 		&--#{$theme} {
 			$base-color: nth($colors, 1);
 			background-color: $base-color;
 
+			// Add background color for hover state if applicable.
 			@if (length($colors) > 1) {
 				$hover-color: nth($colors, 2);
 				@media (hover: hover) {
@@ -33,6 +52,7 @@
 				}
 			}
 			
+			// Set text color to white or black depending on color lightness.
 			@if lightness($base-color) <= 50% {
 				color: $color--white;
 			} @else {
@@ -42,14 +62,7 @@
 	}
 }
 
-@mixin flex($disp: flex, $dir: null, $wrap: null, $just: null, $algn: null) {
-	display: $disp;
-	flex-direction: $dir;
-	flex-wrap: $wrap;
-	justify-content: $just;
-	align-items: $algn;
-}
-
+// For height and width media queries.
 @mixin mq($break) {
 	@if $break == "small" {
 	  @media (max-height: ($brkpoint-height--md - 1)) , (max-width: ($brkpoint-width--md - 1)) {

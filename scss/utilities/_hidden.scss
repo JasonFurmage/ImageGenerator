@@ -3,17 +3,17 @@
 // ==========================================================================
 
 .hidden {
-    display: none!important;
+    display: none;
 }
 
 .hidden-sm-down {
     @include mq(small) {
-        display: none!important;
+        display: none;
     }
 }
 
 .hidden-md-up {
     @include mq(medium) {
-        display: none!important;
+        display: none;
     }
 }

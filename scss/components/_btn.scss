@@ -8,4 +8,15 @@
     padding: 12px 24px;
     border: none;
     cursor: pointer;
+
+    // Add space between icon and btn text.
+    @include e(icon) {
+        @include m(left) {
+            margin-right: 5px; 
+        }
+    
+        @include m(right) {
+            margin-left: 5px;   
+        }
+    }
 }

@@ -2,6 +2,7 @@
 // abstracts/functions.scss
 // ==========================================================================
 
-@function em($target, $context: $font-size) {
-	@return ($target / $context) * 1em;
+// Convert pixels to rems.
+@function rem($target, $context: $font-size) {
+	@return ($target / $context) * 1rem;
 }

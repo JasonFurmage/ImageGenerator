@@ -16,7 +16,6 @@
 
     @include e(btn) {
         width: auto;
-        margin-top: $spacing-lg;
-        margin-bottom: $spacing-lg;
+        margin: $spacing-lg 0;
     }
 }

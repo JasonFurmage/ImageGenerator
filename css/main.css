@@ -459,14 +459,14 @@ template {
   background-color: #4A90E2;
 }
 
-/* line 5, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_placeholders.scss */
+/* line 6, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_placeholders.scss */
 .account__select, .account__textfield {
   width: 100%;
   padding: 16px 8px;
   border: 1px solid #ccc;
 }
 
-/* line 11, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_placeholders.scss */
+/* line 13, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_placeholders.scss */
 .gallery__placeholder {
   position: absolute;
   top: 50%;
@@ -493,7 +493,7 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: white url("/assets/img/chevron.svg") no-repeat right 10px center;
+  background: #fff url("/assets/img/chevron.svg") no-repeat right 10px center;
   background-size: 12px;
   color: #000;
 }
@@ -506,39 +506,39 @@ select {
   cursor: pointer;
 }
 
-/* line 23, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
+/* line 41, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
 .btn--primary {
   background-color: #000;
   color: #fff;
 }
 
 @media (hover: hover) {
-  /* line 30, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
+  /* line 49, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
   .btn--primary:hover {
     background-color: #ccc;
   }
 }
 
-/* line 23, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
+/* line 41, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
 .btn--secondary {
   background-color: #fff;
   color: #000;
 }
 
 @media (hover: hover) {
-  /* line 30, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
+  /* line 49, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
   .btn--secondary:hover {
     background-color: #ccc;
   }
 }
 
-/* line 15, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
-.icn--left {
+/* line 17, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
+.btn__icon--left {
   margin-right: 5px;
 }
 
-/* line 15, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
-.icn--right {
+/* line 17, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
+.btn__icon--right {
   margin-left: 5px;
 }
 
@@ -600,14 +600,14 @@ select {
 }
 
 @media (min-height: 511px) and (min-width: 768px) {
-  /* line 7, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
+  /* line 8, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
   .account__new {
     display: flex;
   }
 }
 
 @media (min-height: 511px) and (min-width: 768px) {
-  /* line 7, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
+  /* line 8, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
   .account__textfield {
     flex: 1;
     margin-right: 15px;
@@ -615,7 +615,7 @@ select {
 }
 
 @media (min-height: 511px) and (min-width: 768px) {
-  /* line 7, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
+  /* line 8, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
   .account__btns {
     display: flex;
     flex-direction: row-reverse;
@@ -624,17 +624,17 @@ select {
   }
 }
 
-/* line 7, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
+/* line 8, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
 .account__select {
   margin-bottom: 15px;
 }
 
-/* line 7, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
+/* line 8, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
 .account__textfield {
   margin-bottom: 15px;
 }
 
-/* line 7, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
+/* line 8, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
 .account__btn {
   margin-bottom: 15px;
 }
@@ -660,29 +660,26 @@ select {
   /* line 5, ../../GitHub/Websites/ImageGenerator/scss/pages/home/_gallery.scss */
   .gallery {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    inset: 0;
     margin-right: 15px;
   }
 }
 
-/* line 7, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
+/* line 8, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
 .gallery__window {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
 
-/* line 7, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
+/* line 8, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
 .gallery__item {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
 }
 
-/* line 7, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
+/* line 8, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
 .gallery__placeholder {
   color: #757575;
 }
@@ -694,12 +691,12 @@ select {
   }
 }
 
-/* line 7, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
+/* line 8, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
 .generator__window {
   margin-bottom: 15px;
 }
 
-/* line 7, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
+/* line 8, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
 .generator__image {
   display: block;
   width: 100%;
@@ -707,7 +704,7 @@ select {
   border: 1px solid #000;
 }
 
-/* line 7, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
+/* line 8, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
 .generator__btns {
   display: flex;
   flex-direction: row;
@@ -718,8 +715,7 @@ select {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  margin-top: 15px;
-  margin-bottom: 30px;
+  margin: 15px 0 30px;
 }
 
 @media (min-height: 511px) and (min-width: 768px) {
@@ -729,23 +725,23 @@ select {
   }
 }
 
-/* line 7, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
+/* line 8, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
 .home__heading {
   width: 100%;
   text-align: center;
 }
 
-/* line 7, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
+/* line 8, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
 .home__title {
   margin-top: 0;
 }
 
-/* line 7, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
+/* line 8, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
 .home__btn {
   margin-top: 30px;
 }
 
-/* line 15, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
+/* line 17, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
 .library--full {
   display: flex;
   flex-direction: column;
@@ -754,35 +750,34 @@ select {
   width: 100%;
 }
 
-/* line 15, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
+/* line 17, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
 .library--mini {
   position: relative;
   width: 50%;
 }
 
-/* line 7, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
+/* line 8, ../../GitHub/Websites/ImageGenerator/scss/abstracts/_mixins.scss */
 .library__btn {
   width: auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 30px 0;
 }
 
-/* line 5, ../../GitHub/Websites/ImageGenerator/scss/utilities/_helper.scss */
+/* line 5, ../../GitHub/Websites/ImageGenerator/scss/utilities/_hidden.scss */
 .hidden {
-  display: none !important;
+  display: none;
 }
 
 @media (max-height: 510px), (max-width: 767px) {
-  /* line 9, ../../GitHub/Websites/ImageGenerator/scss/utilities/_helper.scss */
+  /* line 9, ../../GitHub/Websites/ImageGenerator/scss/utilities/_hidden.scss */
   .hidden-sm-down {
-    display: none !important;
+    display: none;
   }
 }
 
 @media (min-height: 511px) and (min-width: 768px) {
-  /* line 15, ../../GitHub/Websites/ImageGenerator/scss/utilities/_helper.scss */
+  /* line 15, ../../GitHub/Websites/ImageGenerator/scss/utilities/_hidden.scss */
   .hidden-md-up {
-    display: none !important;
+    display: none;
   }
 }
 
