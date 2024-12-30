@@ -3,14 +3,17 @@
 // ==========================================================================
 
 .generator {
+    // Make room for gallery on md+ screens.
     @include mq(medium) {
         width: 50%;
     }
 
+    // Add space below window.
     @include e(window) {
         margin-bottom: $spacing-sm;
     }
 
+    // Fit image to window and add black border.
     @include e(image) {
         display: block;
         width: 100%;
@@ -18,6 +21,7 @@
         border: 1px solid $color--black;
     }
 
+    // Put btns on same line.
     @include e(btns) {
         @include flex($dir: row);
     }
