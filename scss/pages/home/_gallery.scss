@@ -15,7 +15,7 @@
         width: 100%;
     }
 
-    // Fix gallery to same height as generator (mini library).
+    // Make gallery same size as generator (mini library).
     @include mq(medium) {
         @include inset-fill(absolute);
         margin-right: $spacing-sm;
