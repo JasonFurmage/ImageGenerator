@@ -12,7 +12,7 @@ export class GeneratorController {
         this.view = new GeneratorView();
 
         this.#setupEventListeners();
-        this.generateImage();
+        this.generateImage(); // Generate image on page load.
     }
 
     #setupEventListeners() {
@@ -20,14 +20,17 @@ export class GeneratorController {
         this.view.$generatorSaveButton.addEventListener('click', this.#handleSaveButtonClick.bind(this));
     }
 
+    // Generate new image when next is clicked.
     #handleNextButtonClick() {
         this.generateImage();
     }
 
+    // Dispatch save-image event and pass current image when save is clicked.
     #handleSaveButtonClick() {
         dispatchCustomEvent(document, 'save-image', this.model.image);
     }
 
+    // Attempt to fetch new image and store url if successful.
     async generateImage() {
         try {
             await this.model.fetchImage()
