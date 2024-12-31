@@ -12,7 +12,7 @@ export class GalleryView {
         this.imgClass = 'gallery__item';
     }
 
-    // Insert new image into gallery window and add class.
+    // Insert image into gallery and add gallery item class.
     insertImage(image) {
         const img = document.createElement('img');
         img.src = image;
@@ -32,7 +32,7 @@ export class GalleryView {
         toggleVisibility(this.$galleryPlaceholder, show);
     }
 
-    // Remove all images from gallery.
+    // Remove all images from gallery and show placeholder text.
     clearGallery() {
         this.$galleryWindow.innerHTML = '';
         this.$galleryWindow.prepend(this.$galleryPlaceholder);
