@@ -19,22 +19,26 @@ export class LibraryController {
         window.addEventListener('resize', this.#handleWindowResize.bind(this));
     }
 
+    // Determine if home or library button was clicked then toggle visibility.
     #handleViewButtonClick(event) {
         const isHomeButton = event.target === this.view.$homeButton; 
         this.view.showLibrary(isHomeButton);
     }
 
+    // Update library title and saved images count on account change.
     #handleAccountChange(event) {
         const account = event.detail;
         this.view.updateLibraryTitle(account ? account.email : null)
         this.view.updateHomeButtonTitle(account? account.images.length : null);
     }
 
+    // Update saved images count.
     #handleImageCountChange(event) {
         const count = event.detail;
         this.view.updateHomeButtonTitle(count);
     }
 
+    // Adjust position of gallery in dom according to screen width.
     #handleWindowResize() {
         const width = window.innerWidth
         this.view.adjustGalleryPosition(width);
