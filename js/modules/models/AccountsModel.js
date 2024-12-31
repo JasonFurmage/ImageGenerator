@@ -4,7 +4,7 @@
 
 export class AccountsModel {
     constructor() {
-        this.accounts = [];
+        this.accounts = []; // Array for storing accounts.
     }
 
     // Add new account if validation checks are passed.
@@ -37,7 +37,7 @@ export class AccountsModel {
         // Create new account using email.
         constructor(email) {
             this.email = email;
-            this.images = [];
+            this.images = []; // Array for storing saved images.
         }
     
         // Add image to array if it does not exist already.
