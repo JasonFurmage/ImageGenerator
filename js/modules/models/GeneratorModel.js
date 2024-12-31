@@ -8,6 +8,7 @@ export class GeneratorModel {
         this.picsumURL = 'https://picsum.photos/400/300';
     }
 
+    // Fetch image from picsum and store img url.
     fetchImage() {
         return fetch(this.picsumURL)
             .then(this.#checkStatus)  
@@ -16,6 +17,7 @@ export class GeneratorModel {
             .catch(error => {throw error})
     }
     
+    // Check the status of http response and resolve if response is ok.
     #checkStatus(response) {
         if (response.ok) {
             return Promise.resolve(response);
