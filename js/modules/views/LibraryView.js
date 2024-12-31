@@ -16,13 +16,13 @@ export class LibraryView {
         this.$gallery = document.querySelector('.gallery');
     }
 
-    // Switch between showing account select or account new.
+    // Switch between showing home or library.
     showLibrary(show) {
         toggleVisibility(this.$home, !show);
         toggleVisibility(this.$libraryFull, show);
     }
 
-    // Update library title with username.
+    // Include username in library title.
     updateLibraryTitle(email) {
         const title = email ? `${this.#getUsername(email)}'s Library` : 'Library';
         this.$libraryTitle.textContent = title;
