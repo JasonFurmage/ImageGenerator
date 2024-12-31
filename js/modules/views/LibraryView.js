@@ -41,8 +41,7 @@ export class LibraryView {
     }
 
     // Move gallery to full library or mini library depending on screen width.
-    adjustGalleryPosition() {
-        const width = window.innerWidth;
+    adjustGalleryPosition(width) {
         const targetLibrary = width < 768 ? this.$libraryFull : this.$libraryMini;
         const targetIndex = width < 768 ? 2 : 0;
         
