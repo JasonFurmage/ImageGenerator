@@ -22,7 +22,7 @@ export function insertElementAtIndex(parent, child, index) {
     }
 }
 
-// Dispatch custom event.
+// Dispatch a custom event.
 export function dispatchCustomEvent(target, name, data) {
     const event = new CustomEvent(name, { detail: data, });
     target.dispatchEvent(event);
