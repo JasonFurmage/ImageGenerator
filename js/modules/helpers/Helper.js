@@ -2,6 +2,7 @@
 // helpers/Helper.js
 // ==========================================================================
 
+// Toggle hidden class to show or hide element.
 export function toggleVisibility(element, show) {
     if (show) {
         element.classList.remove('hidden');
@@ -10,6 +11,7 @@ export function toggleVisibility(element, show) {
     }
 }
 
+// Insert child element into parent element at specific index.
 export function insertElementAtIndex(parent, child, index) {
     const children = Array.from(parent.childNodes);
 
@@ -20,6 +22,7 @@ export function insertElementAtIndex(parent, child, index) {
     }
 }
 
+// Dispatch custom event.
 export function dispatchCustomEvent(target, name, data) {
     const event = new CustomEvent(name, { detail: data, });
     target.dispatchEvent(event);
