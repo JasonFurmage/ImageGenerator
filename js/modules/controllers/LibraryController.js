@@ -25,14 +25,14 @@ export class LibraryController {
         this.view.showLibrary(isHomeButton);
     }
 
-    // Update library title and saved images count on account change.
+    // Update library title and saved images count on account-change event.
     #handleAccountChange(event) {
         const account = event.detail;
         this.view.updateLibraryTitle(account ? account.email : null)
         this.view.updateHomeButtonTitle(account? account.images.length : null);
     }
 
-    // Update saved images count.
+    // Update saved images count on image-count-change event.
     #handleImageCountChange(event) {
         const count = event.detail;
         this.view.updateHomeButtonTitle(count);
