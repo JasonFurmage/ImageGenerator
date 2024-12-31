@@ -33,13 +33,14 @@ export class AccountsController {
         this.view.toggleAccountNew(isNew);
         this.view.clearTextField();
 
+        // Get existing account if an account was selected.
         if (isAccount) {
             this.#selectAccount(selectedValue);
         } else {
             this.#deselectAccount();
         }
 
-        // Trigger account-change event so library can update.
+        // Dispatch account-change event and pass selected account or null if no account is selected.
         dispatchCustomEvent(document, 'account-change', this.selectedAccount || null);
     }
 
@@ -67,7 +68,7 @@ export class AccountsController {
         }
     }
 
-    // Attempt to save image received from generator.
+    // Save image to account on save-image event.
     #handleSaveImage(event) {
         if (this.selectedAccount) {
             const image = event.detail;
@@ -77,19 +78,19 @@ export class AccountsController {
         }
     }
 
-    // Dispatch add-images event and pass selected account images.
+    // Find account with matching email then dispatch add-images event and pass account images.
     #selectAccount(email) {
         this.selectedAccount = this.model.getAccount(email);
         dispatchCustomEvent(document, 'add-images', this.selectedAccount.images);
     }
 
-    // Remove reference to selected account and dispatch clear-images event so gallery can update.
+    // Remove reference to selected account and dispatch clear-images event.
     #deselectAccount() {
         this.selectedAccount = null;
         dispatchCustomEvent(document, 'clear-images');
     }
 
-    // Attempt to save image and dispatch add-image and image-count-change events so library and gallery can update.
+    // Attempt to save image then dispatch add-image and image-count-change events.
     #saveImage(image) {
         try {
             this.selectedAccount.addImage(image);
