@@ -16,8 +16,8 @@ export class GeneratorController {
     }
 
     #setupEventListeners() {
-        this.view.$nextButton.addEventListener('click', this.#handleNextButtonClick.bind(this));
-        this.view.$saveButton.addEventListener('click', this.#handleSaveButtonClick.bind(this));
+        this.view.$generatorNextButton.addEventListener('click', this.#handleNextButtonClick.bind(this));
+        this.view.$generatorSaveButton.addEventListener('click', this.#handleSaveButtonClick.bind(this));
     }
 
     #handleNextButtonClick() {
@@ -31,7 +31,7 @@ export class GeneratorController {
     async generateImage() {
         try {
             await this.model.fetchImage()
-            this.view.$image.src = this.model.image;
+            this.view.$generatorImage.src = this.model.image;
     
         } catch (error) {
             console.log(error);
