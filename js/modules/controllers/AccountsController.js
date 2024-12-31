@@ -23,11 +23,13 @@ export class AccountsController {
         document.addEventListener('save-image', this.#handleSaveImage.bind(this));
     }
 
+    // Determine which select option was selected.
     #handleSelectChange() {
         const selectedValue = this.view.$accountSelect.value;
         const isNew = selectedValue === 'new';
         const isAccount = selectedValue !== 'new' && selectedValue !== 'default'
 
+        // Show or hide account new depending on whether 'add new account' was selected.
         this.view.toggleAccountNew(isNew);
         this.view.clearTextField();
 
@@ -37,9 +39,11 @@ export class AccountsController {
             this.#deselectAccount();
         }
 
+        // Trigger account-change event so library can update.
         dispatchCustomEvent(document, 'account-change', this.selectedAccount || null);
     }
 
+    // Attempt to add new account and create new select option.
     #handleAddButtonClick() {
         const email = this.view.$accountTextField.value;
 
@@ -51,16 +55,19 @@ export class AccountsController {
         }
     }
 
+    // Reset select to default option when cancel is clicked.
     #handleCancelButtonClick() {
         this.view.selectDefault();
     }
 
+    // Trigger add button click when enter key is pushed.
     #handleKeyDownPress(event) {
         if(event.key === "Enter") {
             this.view.$accountAddButton.click();
         }
     }
 
+    // Attempt to save image received from generator.
     #handleSaveImage(event) {
         if (this.selectedAccount) {
             const image = event.detail;
@@ -70,16 +77,19 @@ export class AccountsController {
         }
     }
 
+    // Dispatch add-images event and pass selected account images.
     #selectAccount(email) {
         this.selectedAccount = this.model.getAccount(email);
         dispatchCustomEvent(document, 'add-images', this.selectedAccount.images);
     }
 
+    // Remove reference to selected account and dispatch clear-images event so gallery can update.
     #deselectAccount() {
         this.selectedAccount = null;
         dispatchCustomEvent(document, 'clear-images');
     }
 
+    // Attempt to save image and dispatch add-image and image-count-change events so library and gallery can update.
     #saveImage(image) {
         try {
             this.selectedAccount.addImage(image);
