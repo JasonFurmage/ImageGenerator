@@ -1,9 +1,9 @@
 # Ignore system files
-.DS_Store           # macOS system file
-Thumbs.db           # Windows system file
+.DS_Store
+Thumbs.db
 
 # Ignore .htaccess
 .htaccess
 
 # Ignore vscode files
-.vscode/            # Visual Studio Code
+.vscode/
