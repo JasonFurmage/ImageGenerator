@@ -7,10 +7,8 @@
  */
 @import url("http://fonts.googleapis.com/css2?family=Raleway");
 html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections
@@ -45,12 +43,9 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
 }
 
 /**
@@ -58,10 +53,8 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
@@ -78,12 +71,9 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -101,10 +91,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
@@ -154,14 +142,10 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
 }
 
 /**
@@ -169,8 +153,7 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input {
-  /* 1 */
+input { /* 1 */
   overflow: visible;
 }
 
@@ -179,8 +162,7 @@ input {
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select {
-  /* 1 */
+select { /* 1 */
   text-transform: none;
 }
 
@@ -188,9 +170,9 @@ select {
  * Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type=button],
+[type=reset],
+[type=submit] {
   -webkit-appearance: button;
 }
 
@@ -198,9 +180,9 @@ button,
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -209,9 +191,9 @@ button::-moz-focus-inner,
  * Restore the focus styles unset by the previous rule.
  */
 button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -229,18 +211,12 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
 }
 
 /**
@@ -261,19 +237,17 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-[type="checkbox"],
-[type="radio"] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
 }
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -281,17 +255,15 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type="search"]::-webkit-search-decoration {
+[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -300,10 +272,8 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /* Interactive
@@ -452,7 +422,7 @@ select {
   -moz-appearance: none;
   appearance: none;
   border-radius: 0;
-  background: #fff url("../assets/img/chevron.svg") no-repeat right 10px center;
+  background: #fff url("../../../public/assets/img/other/chevron.svg") no-repeat right 10px center;
   background-size: 12px;
   color: #000;
 }
@@ -463,33 +433,27 @@ select {
   border: none;
   cursor: pointer;
 }
-
 .btn--primary {
   background-color: #000;
   color: #fff;
 }
-
 @media (hover: hover) {
   .btn--primary:hover {
     background-color: #ccc;
   }
 }
-
 .btn--secondary {
   background-color: #fff;
   color: #000;
 }
-
 @media (hover: hover) {
   .btn--secondary:hover {
     background-color: #ccc;
   }
 }
-
 .btn__icon--left {
   margin-right: 5px;
 }
-
 .btn__icon--right {
   margin-left: 5px;
 }
@@ -506,25 +470,21 @@ select {
   min-height: 100svh;
   width: 100%;
 }
-
 @media (max-height: 510px), (max-width: 767px) {
   .content {
     max-width: 400px;
   }
 }
-
 @media (min-height: 511px) and (min-width: 768px) {
   .content {
     max-width: 600px;
   }
 }
-
 @media (min-height: 586px) and (min-width: 992px) {
   .content {
     max-width: 800px;
   }
 }
-
 @media (min-height: 661px) and (min-width: 1200px) {
   .content {
     max-width: 1000px;
@@ -534,26 +494,22 @@ select {
 .account {
   width: 100%;
 }
-
 @media (min-height: 511px) and (min-width: 768px) {
   .account {
     margin-top: 15px;
   }
 }
-
 @media (min-height: 511px) and (min-width: 768px) {
   .account__new {
     display: flex;
   }
 }
-
 @media (min-height: 511px) and (min-width: 768px) {
   .account__textfield {
     flex: 1;
     margin-right: 15px;
   }
 }
-
 @media (min-height: 511px) and (min-width: 768px) {
   .account__btns {
     display: flex;
@@ -562,15 +518,12 @@ select {
     gap: 15px;
   }
 }
-
 .account__select {
   margin-bottom: 15px;
 }
-
 .account__textfield {
   margin-bottom: 15px;
 }
-
 .account__btn {
   margin-bottom: 15px;
 }
@@ -582,14 +535,12 @@ select {
   padding: 20px;
   overflow-y: auto;
 }
-
 @media (max-height: 510px), (max-width: 767px) {
   .gallery {
     flex: 1;
     width: 100%;
   }
 }
-
 @media (min-height: 511px) and (min-width: 768px) {
   .gallery {
     position: absolute;
@@ -597,19 +548,16 @@ select {
     margin-right: 15px;
   }
 }
-
 .gallery__window {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
-
 .gallery__item {
   width: 100%;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 1/1;
   object-fit: cover;
 }
-
 .gallery__placeholder {
   color: #757575;
 }
@@ -619,18 +567,15 @@ select {
     width: 50%;
   }
 }
-
 .generator__window {
   margin-bottom: 15px;
 }
-
 .generator__image {
   display: block;
   width: 100%;
   background-color: #fff;
   border: 1px solid #000;
 }
-
 .generator__btns {
   display: flex;
   flex-direction: row;
@@ -642,22 +587,18 @@ select {
   width: 100%;
   margin: 15px 0 30px;
 }
-
 @media (min-height: 511px) and (min-width: 768px) {
   .home {
     display: flex !important;
   }
 }
-
 .home__heading {
   width: 100%;
   text-align: center;
 }
-
 .home__title {
   margin-top: 0;
 }
-
 .home__btn {
   margin-top: 30px;
 }
@@ -669,12 +610,10 @@ select {
   height: 100svh;
   width: 100%;
 }
-
 .library--mini {
   position: relative;
   width: 50%;
 }
-
 .library__btn {
   width: auto;
   margin: 30px 0;
