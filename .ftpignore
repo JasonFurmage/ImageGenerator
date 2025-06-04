@@ -1,7 +1,7 @@
 # Ignore directories.
 .git/
 .github/
-src/
+sass/
 
 # Ignore files.
 .gitignore
