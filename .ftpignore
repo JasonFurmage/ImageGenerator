@@ -1,0 +1,9 @@
+# Ignore directories.
+.git/
+.github/
+src/
+
+# Ignore files.
+.gitignore
+.gitattributes
+.ftpignore
