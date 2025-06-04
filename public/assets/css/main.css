@@ -422,7 +422,7 @@ select {
   -moz-appearance: none;
   appearance: none;
   border-radius: 0;
-  background: #fff url("../../public/assets/img/other/chevron.svg") no-repeat right 10px center;
+  background: #fff url("../img/other/chevron.svg") no-repeat right 10px center;
   background-size: 12px;
   color: #000;
 }
