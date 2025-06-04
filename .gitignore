@@ -1,9 +1,9 @@
-# Ignore system files
+# Ignore directories.
+.vscode/
+logs/
+vendor/
+
+# Ignore files.
+.env
 .DS_Store
 Thumbs.db
-
-# Ignore .htaccess
-.htaccess
-
-# Ignore vscode files
-.vscode/
